@@ -418,5 +418,11 @@ article .duck-kicker { color: #3E6A00; margin: 0; }
 .duck-num { position: absolute; top: 4px; left: 4px; width: 1.6em; height: 1.6em; display: grid; place-items: center; border-radius: 50%; background: var(--vermilion); color: var(--paper); font-weight: 900; font-size: .85rem; }
 .duck-caption { margin: 8px 0 2px; font-weight: 700; }
 .duck-quote { margin: 0; font-style: italic; color: var(--ink-2); font-size: .9rem; }
-.duck-videos { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 16px; }
+.duck-videos { list-style: none; padding: 0; margin: 8px 0 20px; display: grid; gap: 12px; }
+@media (min-width: 640px) { .duck-videos { grid-template-columns: 1fr 1fr; } }
+.duck-video { display: flex; flex-direction: column; background: var(--card); border: 2px solid var(--ink); border-radius: 12px; padding: 12px 14px; box-shadow: var(--shadow); }
+.duck-video h3 { margin: 2px 0 4px; font-size: 1.1rem; }
+.duck-video p { margin: 0 0 10px; }
+.duck-video .btn { margin-top: auto; align-self: flex-start; padding: 8px 18px; min-height: 44px; }
+.duck-video-meta { font-size: .78rem; font-weight: 700; letter-spacing: .04em; color: #3E6A00; }
 .duck .learn { margin: 10px 0; }

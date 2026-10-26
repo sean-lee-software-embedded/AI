@@ -45,7 +45,7 @@
       "id": "duck-2"
     },
     {
-      "image": "assets/duck/4.webp",
+      "image": "assets/duck/3.webp",
       "emoji": "🧥🥰 🦆🦆🦆🦆",
       "caption": {
         "zh": "盟主：「你們好可愛。」還問小鴨：「你們的爸媽叫 Pollen，對吧？」——Pollen Robotics，就是研發牠們的公司。",
@@ -56,7 +56,7 @@
       "id": "duck-3"
     },
     {
-      "image": "assets/duck/3.webp",
+      "image": "assets/duck/4.webp",
       "emoji": "🧥😮 🦆🔄🦆🔄",
       "caption": {
         "zh": "「能翻跟斗嗎？」——兩隻翻了過去！盟主連聲稱讚：「太棒了，太棒了。」",
@@ -70,36 +70,84 @@
   "videos": [
     {
       "label": {
-        "zh": "▶ 看影片：盟主與機器鴨",
-        "en": "▶ Watch: the Grandmaster and the robot ducks"
+        "zh": "▶ 看完整現場",
+        "en": "▶ Watch the full scene"
       },
       "title": "Jensen Huang's Tiny Microduck Robots Steal the Show at NVIDIA GTC 2026",
-      "url": "https://www.youtube.com/watch?v=Nt6d62vN7CU"
+      "url": "https://www.youtube.com/watch?v=Nt6d62vN7CU",
+      "meta": {
+        "zh": "現場直擊 · 4 分鐘 · DPCcars",
+        "en": "On the scene · 4 min · DPCcars"
+      },
+      "headline": {
+        "zh": "案發現場完整版",
+        "en": "The full crime scene"
+      },
+      "blurb": {
+        "zh": "「三隻當場倒地」到底是聽話還是當機？證據全在這 4 分鐘。全世界最會賣 GPU 的人，此刻正努力哄一隻鴨子去睡午覺。",
+        "en": "Did three ducks obey, or crash? All the evidence is in these four minutes — the world's best GPU salesman, trying very hard to talk a duck into a nap."
+      }
     },
     {
       "label": {
-        "zh": "▶ 看短影音（Shorts）",
-        "en": "▶ Watch the Short"
+        "zh": "▶ 看 19 秒精華",
+        "en": "▶ Watch the 19-second cut"
       },
       "title": "NVIDIA CEO Jensen Huang Shows Off Tiny AI Robots at GTC Berlin 2026",
-      "url": "https://www.youtube.com/shorts/iJdTcjjRdcg"
+      "url": "https://www.youtube.com/shorts/iJdTcjjRdcg",
+      "meta": {
+        "zh": "Shorts · 19 秒 · DPCcars",
+        "en": "Short · 19 sec · DPCcars"
+      },
+      "headline": {
+        "zh": "19 秒精華，排隊買咖啡剛好看完",
+        "en": "19 seconds — one coffee queue"
+      },
+      "blurb": {
+        "zh": "沒空看 4 分鐘？這支濃縮版把走路、翻跟斗和「沒那麼聽話」一次塞進 19 秒，咖啡還沒做好你就看完了。",
+        "en": "No time for four minutes? Waddling, somersaults and a dash of disobedience, squeezed into 19 seconds — done before your latte is."
+      }
     },
     {
       "lang": "zh",
       "label": {
-        "zh": "▶ 中文解說短片：6 大 QA 看懂機器鴨",
-        "en": "▶ Chinese explainer Short"
+        "zh": "▶ 看中文解說",
+        "en": "▶ Watch (Chinese)"
       },
       "title": "6大QA看懂黃仁勳機器鴨 AI agent和RTX Spark教會它翻筋斗 — 知新聞",
-      "url": "https://www.youtube.com/shorts/maBYc9iRSEc"
+      "url": "https://www.youtube.com/shorts/maBYc9iRSEc",
+      "meta": {
+        "zh": "中文解說 · 1 分半 · 知新聞",
+        "en": "Chinese explainer · 90 sec · 知新聞"
+      },
+      "headline": {
+        "zh": "6 個問答，一分半鐘變鴨鴨專家",
+        "en": "Six Q&As, 90 seconds"
+      },
+      "blurb": {
+        "zh": "鴨子怎麼學會翻跟斗？AI 代理和 RTX Spark 怎麼當牠的教練？知新聞用 6 個問答講完，適合想在聚餐時假裝很懂機器人的你。",
+        "en": "How did a duck learn to somersault, with an AI agent and RTX Spark as its coaches? Six questions, answered in Chinese."
+      }
     },
     {
       "label": {
-        "zh": "▶ 看影片：買之前必知的 12 件事",
-        "en": "▶ Watch: 12 things to know before you buy"
+        "zh": "▶ 看 12 件事",
+        "en": "▶ Watch the 12 things"
       },
       "title": "Microduck Robots: 12 Things to Know Before You Buy — Lifey Guy",
-      "url": "https://www.youtube.com/watch?v=s_c4Z84jtXM"
+      "url": "https://www.youtube.com/watch?v=s_c4Z84jtXM",
+      "meta": {
+        "zh": "買前必看 · 8 分半 · Lifey Guy",
+        "en": "Buyer's guide · 8.5 min · Lifey Guy"
+      },
+      "headline": {
+        "zh": "買鴨前的婚前健檢",
+        "en": "A pre-adoption checkup"
+      },
+      "blurb": {
+        "zh": "心動想下單一隻 399 美元的鴨子？先花 8 分半：嘴巴能叼什麼、電池撐多久、為什麼生來就要跌倒，先搞懂，再決定要不要刷卡。本頁的十二堂必修就是照它的 12 個主題整理的。",
+        "en": "Tempted by a US$399 duck? Spend eight and a half minutes first: what the beak can carry, how long the battery lasts, why it's built to fall — before you even think about your card. Our 12 must-knows follow its 12 topics."
+      }
     }
   ],
   "sources": [
@@ -435,5 +483,13 @@
       ]
     }
   ],
-  "id": "duck-banner"
+  "id": "duck-banner",
+  "videosTitle": {
+    "zh": "🎬 鴨鴨放映室",
+    "en": "🎬 The Duck Screening Room"
+  },
+  "videosLead": {
+    "zh": "從 19 秒到 8 分半，挑一支剛好塞得進你現在空檔的長度。",
+    "en": "From 19 seconds to eight and a half minutes — pick whatever fits the gap in your day."
+  }
 }
