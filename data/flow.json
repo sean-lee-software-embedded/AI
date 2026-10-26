@@ -1,0 +1,106 @@
+{
+  "asOf": "2026-10",
+  "intro": {
+    "zh": "GPU 從 NVIDIA 出發，一路流過整個生態系：ODM & OEM 把晶片組成伺服器機櫃，CSPs 與 Neoclouds 買下後出租算力，AI Labs 與 AI Natives 用來訓練模型，最後 Enterprise & Industrial 把 AI 用在各行各業。錢則往反方向流回 NVIDIA。",
+    "en": "GPUs leave NVIDIA and flow through the ecosystem: ODMs & OEMs build them into racks, CSPs and Neoclouds buy them and rent out compute, AI Labs and AI Natives train models, and Enterprise & Industrial put AI to work. Money flows the other way, back to NVIDIA."
+  },
+  "stages": [
+    {
+      "id": "nvidia",
+      "factions": [
+        "nvidia"
+      ],
+      "label": {
+        "zh": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "does": {
+        "zh": "設計 GPU 與 CUDA 軟體",
+        "en": "Designs GPUs and CUDA"
+      }
+    },
+    {
+      "id": "oem",
+      "factions": [
+        "oem"
+      ],
+      "label": {
+        "zh": "ODM & OEM",
+        "en": "ODM & OEM"
+      },
+      "does": {
+        "zh": "把晶片組裝成伺服器與機櫃",
+        "en": "Build chips into servers and racks"
+      }
+    },
+    {
+      "id": "cloud",
+      "factions": [
+        "csps",
+        "neoclouds"
+      ],
+      "label": {
+        "zh": "CSPs / Neoclouds",
+        "en": "CSPs / Neoclouds"
+      },
+      "does": {
+        "zh": "蓋資料中心，出租算力",
+        "en": "Build data centers and rent compute"
+      }
+    },
+    {
+      "id": "builders",
+      "factions": [
+        "labs",
+        "natives"
+      ],
+      "label": {
+        "zh": "AI Labs / AI Natives",
+        "en": "AI Labs / AI Natives"
+      },
+      "does": {
+        "zh": "訓練並推出 AI 模型與產品",
+        "en": "Train and ship AI models and products"
+      }
+    },
+    {
+      "id": "clans",
+      "factions": [
+        "enterprise"
+      ],
+      "label": {
+        "zh": "Enterprise & Industrial",
+        "en": "Enterprise & Industrial"
+      },
+      "does": {
+        "zh": "把 AI 用在各行各業",
+        "en": "Put AI to work in every industry"
+      }
+    }
+  ],
+  "flows": [
+    {
+      "kind": "power",
+      "label": {
+        "zh": "GPU 與算力 →",
+        "en": "GPUs & compute →"
+      }
+    },
+    {
+      "kind": "money",
+      "label": {
+        "zh": "← 資金",
+        "en": "← Money"
+      }
+    }
+  ],
+  "guard": {
+    "factions": [
+      "openshell"
+    ],
+    "label": {
+      "zh": "OpenShell Partners 在旁協助守護 AI Agent 的安全",
+      "en": "OpenShell Partners help keep AI agents safe along the way"
+    }
+  }
+}

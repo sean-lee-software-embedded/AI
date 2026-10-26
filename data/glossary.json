@@ -1,0 +1,812 @@
+[
+  {
+    "id": "nvidia",
+    "wuxia": {
+      "zh": "鑄劍山莊・皮衣盟主",
+      "en": "Sword Forge Manor · Leather-Jacket Grandmaster"
+    },
+    "real": {
+      "zh": "NVIDIA",
+      "en": "NVIDIA"
+    },
+    "plain": {
+      "zh": "設計 AI 運算晶片的美國公司，是整個 AI 江湖的中心。",
+      "en": "The US company designing the chips that power AI — the center of the whole jianghu."
+    }
+  },
+  {
+    "id": "cuda",
+    "wuxia": {
+      "zh": "獨門心法",
+      "en": "The Secret Art"
+    },
+    "real": {
+      "zh": "CUDA",
+      "en": "CUDA"
+    },
+    "plain": {
+      "zh": "NVIDIA 的軟體工具，讓工程師能用 GPU 做運算。大家的程式都用它寫，所以很難換別家的晶片。",
+      "en": "NVIDIA's software toolkit for programming GPUs. So much code is written with it that switching chips is hard."
+    }
+  },
+  {
+    "id": "gpu",
+    "wuxia": {
+      "zh": "神兵",
+      "en": "Divine Weapons"
+    },
+    "real": {
+      "zh": "GPU（圖形處理器）",
+      "en": "GPU"
+    },
+    "plain": {
+      "zh": "原本用來畫遊戲畫面的晶片，因為能同時做很多計算，變成 AI 最重要的運算工具。",
+      "en": "A chip first built for game graphics; because it does many calculations at once, it became AI's key tool."
+    }
+  },
+  {
+    "id": "compute",
+    "wuxia": {
+      "zh": "內力",
+      "en": "Inner Power"
+    },
+    "real": {
+      "zh": "算力（Compute）",
+      "en": "Compute"
+    },
+    "plain": {
+      "zh": "電腦的運算能力。AI 越大，需要的內力越多。",
+      "en": "Raw computing capacity. Bigger AI needs more of it."
+    }
+  },
+  {
+    "id": "training",
+    "wuxia": {
+      "zh": "閉關修練",
+      "en": "Secluded Training"
+    },
+    "real": {
+      "zh": "訓練模型（Training）",
+      "en": "Training"
+    },
+    "plain": {
+      "zh": "用大量資料和算力，讓 AI 學會本事，通常要花好幾個月與大筆金錢。",
+      "en": "Feeding AI huge amounts of data and compute until it learns — often months and big money."
+    }
+  },
+  {
+    "id": "inference",
+    "wuxia": {
+      "zh": "出招",
+      "en": "Striking"
+    },
+    "real": {
+      "zh": "推論（Inference）",
+      "en": "Inference"
+    },
+    "plain": {
+      "zh": "AI 學成之後，實際回答你的問題、幫你做事的過程。",
+      "en": "When a trained AI actually answers you or does a task."
+    }
+  },
+  {
+    "id": "datacenter",
+    "wuxia": {
+      "zh": "練功房",
+      "en": "Training Hall"
+    },
+    "real": {
+      "zh": "資料中心 / AI 工廠",
+      "en": "Data Center / AI Factory"
+    },
+    "plain": {
+      "zh": "擺滿伺服器的超大機房。專門跑 AI 的機房，NVIDIA 稱為「AI 工廠」。",
+      "en": "A huge building full of servers. One built just for AI is what NVIDIA calls an \"AI factory\"."
+    }
+  },
+  {
+    "id": "agent",
+    "wuxia": {
+      "zh": "門下弟子",
+      "en": "Disciples"
+    },
+    "real": {
+      "zh": "AI Agent（AI 代理）",
+      "en": "AI Agent"
+    },
+    "plain": {
+      "zh": "不只會聊天，還會自己規劃步驟、操作工具、替你跑腿辦事的 AI。",
+      "en": "AI that doesn't just chat — it plans steps, uses tools and runs errands for you."
+    }
+  },
+  {
+    "id": "csp",
+    "wuxia": {
+      "zh": "少林寺",
+      "en": "Shaolin Temple"
+    },
+    "real": {
+      "zh": "CSP（雲端服務供應商）",
+      "en": "CSP"
+    },
+    "plain": {
+      "zh": "像 AWS、Google Cloud 這種把電腦放在網路上出租的大公司。",
+      "en": "Giants like AWS or Google Cloud that rent computers over the internet."
+    }
+  },
+  {
+    "id": "ailab",
+    "wuxia": {
+      "zh": "天下五絕",
+      "en": "The Five Greats"
+    },
+    "real": {
+      "zh": "AI Lab（AI 實驗室）",
+      "en": "AI Lab"
+    },
+    "plain": {
+      "zh": "專門研發最先進 AI 模型的頂尖團隊。",
+      "en": "Top teams building the most advanced AI models."
+    }
+  },
+  {
+    "id": "ainative",
+    "wuxia": {
+      "zh": "江湖新秀",
+      "en": "Rising Heroes"
+    },
+    "real": {
+      "zh": "AI Native（AI 原生新創）",
+      "en": "AI Native"
+    },
+    "plain": {
+      "zh": "從第一天起就以 AI 為核心的新創公司。",
+      "en": "Startups built around AI from day one."
+    }
+  },
+  {
+    "id": "neocloud",
+    "wuxia": {
+      "zh": "兵器行",
+      "en": "Weapon Lenders"
+    },
+    "real": {
+      "zh": "Neocloud（新型 GPU 雲端）",
+      "en": "Neocloud"
+    },
+    "plain": {
+      "zh": "專門出租 GPU 給 AI 公司的新型雲端業者。",
+      "en": "Newer cloud companies that specialize in renting GPUs to AI teams."
+    }
+  },
+  {
+    "id": "odm-oem",
+    "wuxia": {
+      "zh": "鐵匠鋪",
+      "en": "Blacksmiths"
+    },
+    "real": {
+      "zh": "ODM / OEM",
+      "en": "ODM / OEM"
+    },
+    "plain": {
+      "zh": "OEM 是用自己品牌賣機器的廠商；ODM 是幫別人設計並製造的代工廠。兩者都把晶片組成伺服器。",
+      "en": "OEMs sell machines under their own brand; ODMs design and build for others. Both turn chips into servers."
+    }
+  },
+  {
+    "id": "enterprise",
+    "wuxia": {
+      "zh": "各地世家",
+      "en": "The Great Clans"
+    },
+    "real": {
+      "zh": "Enterprise & Industrial（企業與產業）",
+      "en": "Enterprise & Industrial"
+    },
+    "plain": {
+      "zh": "各行各業的公司，把 AI 用在自己的業務上。",
+      "en": "Companies in every industry applying AI to their own business."
+    }
+  },
+  {
+    "id": "openshell",
+    "wuxia": {
+      "zh": "六扇門",
+      "en": "The Constabulary"
+    },
+    "real": {
+      "zh": "OpenShell",
+      "en": "OpenShell"
+    },
+    "plain": {
+      "zh": "NVIDIA 2026 年推出的開源軟體，把 AI Agent 關在「沙盒」裡照規矩辦事，降低它亂來的風險。",
+      "en": "Open-source software NVIDIA launched in 2026 that runs AI agents inside a rule-bound sandbox to reduce the risk of them going rogue."
+    }
+  },
+  {
+    "id": "server",
+    "wuxia": {
+      "zh": "兵器架",
+      "en": "Weapon Rack"
+    },
+    "real": {
+      "zh": "伺服器 / 機架（Server / Rack）",
+      "en": "Server / Rack"
+    },
+    "plain": {
+      "zh": "伺服器是專門處理運算的電腦；很多台疊在一個櫃子裡，就叫機架。",
+      "en": "A server is a computer built for heavy work; stack many in a cabinet and you have a rack."
+    }
+  },
+  {
+    "id": "model",
+    "wuxia": {
+      "zh": "武功",
+      "en": "Kung Fu"
+    },
+    "real": {
+      "zh": "AI 模型（Model）",
+      "en": "Model"
+    },
+    "plain": {
+      "zh": "AI 學成的「本事」本身，例如 ChatGPT、Claude、Gemini 背後的大腦。",
+      "en": "The learned skill itself — the brain behind ChatGPT, Claude or Gemini."
+    }
+  },
+  {
+    "id": "llm",
+    "wuxia": {
+      "zh": "說書神功",
+      "en": "The Storyteller's Art"
+    },
+    "real": {
+      "zh": "LLM（大型語言模型）",
+      "en": "LLM"
+    },
+    "plain": {
+      "zh": "讀過海量文字、很會理解和產生文字的 AI 模型。",
+      "en": "An AI model trained on oceans of text that's great at reading and writing."
+    }
+  },
+  {
+    "id": "gigawatt",
+    "wuxia": {
+      "zh": "千兆瓦內力",
+      "en": "A Gigawatt of Power"
+    },
+    "real": {
+      "zh": "GW（十億瓦）",
+      "en": "GW"
+    },
+    "plain": {
+      "zh": "電力單位。1 GW 大約是一座大型發電廠的發電量，現在常用來形容 AI 機房有多大。",
+      "en": "A unit of power — about one big power plant's output. Now a common way to size AI data centers."
+    }
+  },
+  {
+    "id": "liquid-cooling",
+    "wuxia": {
+      "zh": "寒冰淬劍",
+      "en": "Ice Quenching"
+    },
+    "real": {
+      "zh": "液冷（Liquid Cooling）",
+      "en": "Liquid Cooling"
+    },
+    "plain": {
+      "zh": "用液體帶走晶片熱量的散熱方式，比吹風扇更有效。",
+      "en": "Cooling chips with liquid instead of fans — far more effective."
+    }
+  },
+  {
+    "id": "blackwell",
+    "wuxia": {
+      "zh": "黑井神兵",
+      "en": "The Blackwell Blades"
+    },
+    "real": {
+      "zh": "Blackwell",
+      "en": "Blackwell"
+    },
+    "plain": {
+      "zh": "NVIDIA 2024 年發表的一代 GPU 架構名稱。",
+      "en": "The NVIDIA GPU generation unveiled in 2024."
+    }
+  },
+  {
+    "id": "rubin",
+    "wuxia": {
+      "zh": "魯賓神兵",
+      "en": "The Rubin Blades"
+    },
+    "real": {
+      "zh": "Vera Rubin",
+      "en": "Vera Rubin"
+    },
+    "plain": {
+      "zh": "接在 Blackwell 之後的下一代 NVIDIA 平台。",
+      "en": "NVIDIA's next platform after Blackwell."
+    }
+  },
+  {
+    "id": "open-model",
+    "wuxia": {
+      "zh": "公開秘笈",
+      "en": "Open Scrolls"
+    },
+    "real": {
+      "zh": "開放模型（Open-weight Model）",
+      "en": "Open-weight Model"
+    },
+    "plain": {
+      "zh": "公開讓大家下載、自己架設使用的 AI 模型。",
+      "en": "AI models anyone can download and run themselves."
+    }
+  },
+  {
+    "id": "sovereign-ai",
+    "wuxia": {
+      "zh": "自立門戶",
+      "en": "Founding One's Own School"
+    },
+    "real": {
+      "zh": "主權 AI（Sovereign AI）",
+      "en": "Sovereign AI"
+    },
+    "plain": {
+      "zh": "一個國家或地區想用自己掌握的機房和模型發展 AI，不完全依賴外國公司。",
+      "en": "A country building AI on data centers and models it controls, not relying fully on foreign firms."
+    }
+  },
+  {
+    "id": "startup",
+    "wuxia": {
+      "zh": "初出茅廬",
+      "en": "Fresh From the Hut"
+    },
+    "real": {
+      "zh": "新創公司（Startup）",
+      "en": "Startup"
+    },
+    "plain": {
+      "zh": "剛成立、想快速成長的小公司。",
+      "en": "A young company aiming to grow fast."
+    }
+  },
+  {
+    "id": "investment",
+    "wuxia": {
+      "zh": "入股結盟",
+      "en": "Sworn Alliance"
+    },
+    "real": {
+      "zh": "投資（Investment）",
+      "en": "Investment"
+    },
+    "plain": {
+      "zh": "出錢換一部分公司股份。NVIDIA 投資了很多自家客戶。",
+      "en": "Putting in money for a share of a company. NVIDIA has invested in many of its own customers."
+    }
+  },
+  {
+    "id": "cybersecurity",
+    "wuxia": {
+      "zh": "護院功夫",
+      "en": "Guarding the Estate"
+    },
+    "real": {
+      "zh": "資安（Cybersecurity）",
+      "en": "Cybersecurity"
+    },
+    "plain": {
+      "zh": "保護電腦和資料不被駭客入侵。",
+      "en": "Protecting computers and data from hackers."
+    }
+  },
+  {
+    "id": "asic",
+    "wuxia": {
+      "zh": "專用神兵",
+      "en": "Specialist Blades"
+    },
+    "real": {
+      "zh": "ASIC（專用晶片）",
+      "en": "ASIC (custom chip)"
+    },
+    "plain": {
+      "zh": "只為特定工作設計的晶片，例如 Google TPU、AWS Trainium。通常比 GPU 省電、便宜，但彈性較低。",
+      "en": "A chip designed for one job, like Google's TPU or AWS Trainium — often cheaper and more efficient than GPUs, but less flexible."
+    }
+  },
+  {
+    "id": "nvlink",
+    "wuxia": {
+      "zh": "經脈相連",
+      "en": "Linked Meridians"
+    },
+    "real": {
+      "zh": "NVLink",
+      "en": "NVLink"
+    },
+    "plain": {
+      "zh": "NVIDIA 的高速連線技術，讓多顆 GPU 像一顆大 GPU 一樣快速交換資料。",
+      "en": "NVIDIA's high-speed link that lets many GPUs share data so fast they act like one big GPU."
+    }
+  },
+  {
+    "id": "prompt-injection",
+    "wuxia": {
+      "zh": "迷魂指令",
+      "en": "Bewitching Commands"
+    },
+    "real": {
+      "zh": "提示注入（Prompt Injection）",
+      "en": "Prompt Injection"
+    },
+    "plain": {
+      "zh": "把壞指令藏在 AI 會讀到的網頁、Email 或文件裡，騙 AI 照著做。是 AI Agent 最大的資安風險之一。",
+      "en": "Hiding malicious instructions in web pages, emails or files an AI reads, tricking it into obeying. One of the biggest risks for AI agents."
+    }
+  },
+  {
+    "id": "synthetic-data",
+    "wuxia": {
+      "zh": "幻境練功",
+      "en": "Training in Illusion"
+    },
+    "real": {
+      "zh": "合成資料（Synthetic Data）",
+      "en": "Synthetic Data"
+    },
+    "plain": {
+      "zh": "用電腦模擬產生的資料，用來訓練 AI。適合真實資料難取得、牽涉隱私或危險的情況。",
+      "en": "Data generated by simulation to train AI — useful when real data is scarce, private or dangerous to collect."
+    }
+  },
+  {
+    "id": "weights",
+    "wuxia": {
+      "zh": "武功心得",
+      "en": "Learned Insight"
+    },
+    "real": {
+      "zh": "權重 / 參數（Weights / Parameters）",
+      "en": "Weights / Parameters"
+    },
+    "plain": {
+      "zh": "AI 模型學到的知識，存成一大堆數字。參數越多，模型通常越大、越強，也越吃算力。",
+      "en": "What a model has learned, stored as a vast set of numbers. More parameters usually means a bigger, stronger, hungrier model."
+    }
+  },
+  {
+    "id": "token",
+    "wuxia": {
+      "zh": "一招一式",
+      "en": "A Single Move"
+    },
+    "real": {
+      "zh": "Token（詞元）",
+      "en": "Token"
+    },
+    "plain": {
+      "zh": "AI 讀寫文字的最小單位，大約是一個中文字或半個英文單字。AI 服務常按 token 數量收費。",
+      "en": "The smallest unit of text an AI reads or writes — roughly one Chinese character or about three-quarters of an English word. AI services often charge per token."
+    }
+  },
+  {
+    "id": "fine-tuning",
+    "wuxia": {
+      "zh": "拜師精修",
+      "en": "Advanced Tutelage"
+    },
+    "real": {
+      "zh": "微調（Fine-tuning）",
+      "en": "Fine-tuning"
+    },
+    "plain": {
+      "zh": "拿已經訓練好的模型，再用特定領域的資料加強訓練，讓它更懂某個專業。",
+      "en": "Taking a trained model and training it further on specialist data so it masters a particular field."
+    }
+  },
+  {
+    "id": "sandbox",
+    "wuxia": {
+      "zh": "試劍石室",
+      "en": "Testing Chamber"
+    },
+    "real": {
+      "zh": "沙盒（Sandbox）",
+      "en": "Sandbox"
+    },
+    "plain": {
+      "zh": "一個被隔離的執行環境。AI Agent 在裡面做事，就算出錯也不會影響外面的系統。",
+      "en": "An isolated environment where an AI agent can work without harming outside systems if something goes wrong."
+    }
+  },
+  {
+    "id": "hbm",
+    "wuxia": {
+      "zh": "隨身百寶囊",
+      "en": "The Bottomless Pouch"
+    },
+    "real": {
+      "zh": "HBM（高頻寬記憶體）",
+      "en": "HBM (High Bandwidth Memory)"
+    },
+    "plain": {
+      "zh": "疊在 GPU 旁邊的高速記憶體。AI 模型很大，GPU 能多快拿到資料，常常和算得多快一樣重要。",
+      "en": "Stacked high-speed memory beside the GPU. AI models are huge, so how fast the GPU can fetch data often matters as much as raw speed."
+    }
+  },
+  {
+    "id": "l-levels",
+    "wuxia": {
+      "zh": "鑄造工序",
+      "en": "Forging Stages"
+    },
+    "real": {
+      "zh": "L6／L10／L11／L12（伺服器組裝層級）",
+      "en": "L6 / L10 / L11 / L12 (server build levels)"
+    },
+    "plain": {
+      "zh": "伺服器代工交貨時做到哪一步：L6 主機板裝進機殼；L10 完整可開機的伺服器；L11 整個機櫃組好並測試；L12 多櫃串成叢集並驗證軟體。各廠定義略有差異。",
+      "en": "How complete a server delivery is: L6 board in chassis; L10 a complete, bootable server; L11 a fully built and tested rack; L12 multiple racks validated as a cluster. Definitions vary slightly by maker."
+    }
+  },
+  {
+    "id": "consignment",
+    "wuxia": {
+      "zh": "自備材料",
+      "en": "Bring Your Own Ore"
+    },
+    "real": {
+      "zh": "代料（Consignment）",
+      "en": "Consignment"
+    },
+    "plain": {
+      "zh": "客戶自己買好關鍵零件交給代工廠組裝。代工廠帳上營收會變少，但出貨量和獲利不一定變少。",
+      "en": "The customer buys key parts and hands them to the manufacturer to assemble. Reported revenue drops, but shipments and profit may not."
+    }
+  },
+  {
+    "id": "world-model",
+    "wuxia": {
+      "zh": "天地推演",
+      "en": "Simulating Heaven and Earth"
+    },
+    "real": {
+      "zh": "世界模型（World Model）",
+      "en": "World Model"
+    },
+    "plain": {
+      "zh": "學會「世界怎麼運作」的 AI，能預測動作的後果，用於機器人、自駕車與模擬環境。",
+      "en": "AI that learns how the world works and predicts the results of actions — used in robots, self-driving and simulation."
+    }
+  },
+  {
+    "id": "diffusion",
+    "wuxia": {
+      "zh": "去濁還清",
+      "en": "Clearing the Murk"
+    },
+    "real": {
+      "zh": "擴散模型（Diffusion Model）",
+      "en": "Diffusion Model"
+    },
+    "plain": {
+      "zh": "從一片雜訊開始，一步步「去雜訊」生成圖片、影片或文字的 AI 方法。",
+      "en": "An AI method that starts from noise and removes it step by step to generate images, video or text."
+    }
+  },
+  {
+    "id": "rag",
+    "wuxia": {
+      "zh": "翻書作答",
+      "en": "Answering from the Books"
+    },
+    "real": {
+      "zh": "檢索增強生成（RAG）",
+      "en": "Retrieval-Augmented Generation (RAG)"
+    },
+    "plain": {
+      "zh": "先找出相關文件，再讓 AI 根據這些資料回答，答案有出處、比較不會亂編。",
+      "en": "Find relevant documents first, then let the AI answer from them — grounded, citable, less made-up."
+    }
+  },
+  {
+    "id": "hallucination",
+    "wuxia": {
+      "zh": "走火入魔",
+      "en": "Qi Deviation"
+    },
+    "real": {
+      "zh": "AI 幻覺（Hallucination）",
+      "en": "Hallucination"
+    },
+    "plain": {
+      "zh": "AI 一本正經地講出不存在或錯誤的內容，例如捏造引用。",
+      "en": "When AI confidently states false or nonexistent things, like fabricated citations."
+    }
+  },
+  {
+    "id": "vla",
+    "wuxia": {
+      "zh": "眼口手合一",
+      "en": "Eye, Word and Hand as One"
+    },
+    "real": {
+      "zh": "VLA 模型（視覺－語言－動作）",
+      "en": "Vision-Language-Action (VLA) Model"
+    },
+    "plain": {
+      "zh": "讓機器人同時看懂畫面、聽懂指令並輸出動作的 AI 模型。",
+      "en": "An AI model letting robots see, understand instructions and output actions together."
+    }
+  },
+  {
+    "id": "reinforcement-learning",
+    "wuxia": {
+      "zh": "實戰磨練",
+      "en": "Learning Through Combat"
+    },
+    "real": {
+      "zh": "強化學習（Reinforcement Learning）",
+      "en": "Reinforcement Learning"
+    },
+    "plain": {
+      "zh": "AI 透過嘗試、獎勵與懲罰學會最好策略的方法，AlphaGo 就是經典例子。",
+      "en": "Learning the best strategy through trial, reward and penalty — AlphaGo is the classic example."
+    }
+  },
+  {
+    "id": "moe",
+    "wuxia": {
+      "zh": "眾師輪值",
+      "en": "Rotating Masters"
+    },
+    "real": {
+      "zh": "混合專家模型（MoE）",
+      "en": "Mixture of Experts (MoE)"
+    },
+    "plain": {
+      "zh": "模型裡有很多「專家」，每次只叫醒最相關的幾位來算，大而省。",
+      "en": "A model with many experts that wakes only the relevant few per answer — big yet efficient."
+    }
+  },
+  {
+    "id": "lora",
+    "wuxia": {
+      "zh": "外掛心法",
+      "en": "Add-on Technique"
+    },
+    "real": {
+      "zh": "LoRA（低秩適配）",
+      "en": "LoRA (Low-Rank Adaptation)"
+    },
+    "plain": {
+      "zh": "凍結原模型、只訓練一小組額外參數的微調方法，便宜又快。",
+      "en": "A fine-tuning method that freezes the model and trains a small add-on set of parameters — cheap and fast."
+    }
+  },
+  {
+    "id": "benchmark",
+    "wuxia": {
+      "zh": "比武擂台",
+      "en": "The Dueling Stage"
+    },
+    "real": {
+      "zh": "基準測試（Benchmark）",
+      "en": "Benchmark"
+    },
+    "plain": {
+      "zh": "比較不同 AI 表現的標準考題；獨立、可重現的測試最可信。",
+      "en": "A standard test for comparing AIs; independent, reproducible tests are most credible."
+    }
+  },
+  {
+    "id": "arr",
+    "wuxia": {
+      "zh": "年俸預估",
+      "en": "Projected Annual Purse"
+    },
+    "real": {
+      "zh": "年化營收（ARR／Run-rate）",
+      "en": "Annualized Revenue (ARR / Run-rate)"
+    },
+    "plain": {
+      "zh": "ARR（年度經常性收入）是把目前有效的訂閱合約換算成一年的金額；新創常說的「年化營收（run-rate）」則多半是最近一個月營收 ×12。兩者都反映成長動能，但都不是審計過的全年營收。",
+      "en": "ARR (annual recurring revenue) is the yearly value of active subscription contracts; a startup 'run-rate' usually means latest month's revenue × 12. Both show momentum, but neither is audited annual revenue."
+    }
+  },
+  {
+    "id": "vibe-coding",
+    "wuxia": {
+      "zh": "隨口成章",
+      "en": "Speaking Code into Being"
+    },
+    "real": {
+      "zh": "Vibe coding",
+      "en": "Vibe coding"
+    },
+    "plain": {
+      "zh": "用自然語言描述需求，讓 AI 生成程式，人只負責檢查與調整。",
+      "en": "Describing what you want in plain language and letting AI write the code while you review."
+    }
+  },
+  {
+    "id": "digital-twin",
+    "wuxia": {
+      "zh": "鏡中分身",
+      "en": "The Mirror Double"
+    },
+    "real": {
+      "zh": "數位雙生（Digital Twin）",
+      "en": "Digital Twin"
+    },
+    "plain": {
+      "zh": "在電腦裡建一個和真實產品或工廠一模一樣、遵守物理定律的模型，先模擬再動工。",
+      "en": "A physics-faithful virtual copy of a real product or factory, used to simulate before building."
+    }
+  },
+  {
+    "id": "dpu",
+    "wuxia": {
+      "zh": "護衛副手",
+      "en": "The Guard's Second"
+    },
+    "real": {
+      "zh": "DPU（資料處理器）",
+      "en": "DPU (Data Processing Unit)"
+    },
+    "plain": {
+      "zh": "專門處理網路、加密與資安檢查的處理器，例如 NVIDIA BlueField，替 CPU、GPU 分擔雜務。",
+      "en": "A processor for networking, encryption and security checks — like NVIDIA BlueField — offloading chores from CPUs and GPUs."
+    }
+  },
+  {
+    "id": "zero-trust",
+    "wuxia": {
+      "zh": "人人驗身",
+      "en": "Everyone Shows Papers"
+    },
+    "real": {
+      "zh": "零信任（Zero Trust）",
+      "en": "Zero Trust"
+    },
+    "plain": {
+      "zh": "每一次存取都驗證身分與權限，不因為「在內部」就被信任。",
+      "en": "Verify identity and permission on every access — nobody is trusted just for being inside."
+    }
+  },
+  {
+    "id": "kubernetes",
+    "wuxia": {
+      "zh": "萬兵調度",
+      "en": "Marshalling Ten Thousand Troops"
+    },
+    "real": {
+      "zh": "Kubernetes",
+      "en": "Kubernetes"
+    },
+    "plain": {
+      "zh": "自動安排、重啟、擴充大量軟體容器的系統，雲端與 AI 服務廣泛使用。",
+      "en": "A system that schedules, restarts and scales many software containers — widely used for cloud and AI services."
+    }
+  },
+  {
+    "id": "erp",
+    "wuxia": {
+      "zh": "總帳房",
+      "en": "The Grand Ledger"
+    },
+    "real": {
+      "zh": "ERP（企業資源規劃）",
+      "en": "ERP (Enterprise Resource Planning)"
+    },
+    "plain": {
+      "zh": "把財務、採購、生產、庫存、人資整合在一起的企業核心系統。",
+      "en": "The core business system unifying finance, purchasing, production, inventory and HR."
+    }
+  }
+]

@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "q01",
+    "q": {
+      "zh": "為什麼 AI 特別愛用 GPU？",
+      "en": "Why does AI love GPUs?"
+    },
+    "options": [
+      {
+        "zh": "GPU 能同時做大量簡單計算（平行運算）",
+        "en": "GPUs do huge amounts of simple math at once (parallel computing)"
+      },
+      {
+        "zh": "GPU 比較便宜",
+        "en": "GPUs are cheaper"
+      },
+      {
+        "zh": "GPU 不需要電",
+        "en": "GPUs need no electricity"
+      },
+      {
+        "zh": "GPU 可以上網",
+        "en": "GPUs connect to the internet"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "AI 的運算大多是海量的簡單乘法和加法，GPU 有幾千個小核心可以一起算。",
+      "en": "AI is mostly vast amounts of simple multiply-and-add; a GPU's thousands of small cores work on it together."
+    },
+    "entityId": "coreweave"
+  },
+  {
+    "id": "q02",
+    "q": {
+      "zh": "NVIDIA 的 CUDA 是什麼？",
+      "en": "What is NVIDIA's CUDA?"
+    },
+    "options": [
+      {
+        "zh": "讓工程師寫 GPU 程式的軟體工具",
+        "en": "Software that lets engineers program GPUs"
+      },
+      {
+        "zh": "一款 GPU 型號",
+        "en": "A GPU model"
+      },
+      {
+        "zh": "一種散熱方式",
+        "en": "A cooling method"
+      },
+      {
+        "zh": "NVIDIA 的總部",
+        "en": "NVIDIA's headquarters"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "CUDA 2006 年推出，多年累積的程式和開發者，讓大家很難換別家晶片。",
+      "en": "Launched in 2006, CUDA's years of code and developers make switching chips hard."
+    },
+    "entityId": null
+  },
+  {
+    "id": "q03",
+    "q": {
+      "zh": "「訓練」和「推論」有什麼不同？",
+      "en": "What's the difference between training and inference?"
+    },
+    "options": [
+      {
+        "zh": "訓練是教會 AI；推論是 AI 實際回答問題",
+        "en": "Training teaches the AI; inference is the AI answering"
+      },
+      {
+        "zh": "兩者完全一樣",
+        "en": "They're identical"
+      },
+      {
+        "zh": "推論比訓練早發生",
+        "en": "Inference happens before training"
+      },
+      {
+        "zh": "訓練只用 CPU",
+        "en": "Training uses only CPUs"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "訓練是一次性的大工程；推論則是每次有人使用 AI 時都會發生。",
+      "en": "Training is a one-off mega project; inference happens every time someone uses the AI."
+    },
+    "entityId": "openai"
+  },
+  {
+    "id": "q04",
+    "q": {
+      "zh": "AI 模型的「權重」是什麼？",
+      "en": "What are a model's \"weights\"?"
+    },
+    "options": [
+      {
+        "zh": "模型學到的知識，存成一大堆數字",
+        "en": "What the model learned, stored as numbers"
+      },
+      {
+        "zh": "伺服器的重量",
+        "en": "How much the server weighs"
+      },
+      {
+        "zh": "模型的價格",
+        "en": "The model's price"
+      },
+      {
+        "zh": "電費",
+        "en": "The power bill"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "權重（參數）就是 AI 的「腦內容」。開放權重模型會把這些數字公開下載。",
+      "en": "Weights (parameters) are the AI's brain contents; open-weight models publish them."
+    },
+    "entityId": "mistral"
+  },
+  {
+    "id": "q05",
+    "q": {
+      "zh": "「開放權重」模型最大的好處是？",
+      "en": "The biggest perk of an open-weight model?"
+    },
+    "options": [
+      {
+        "zh": "可以下載到自己的機房執行、微調",
+        "en": "You can run and fine-tune it on your own machines"
+      },
+      {
+        "zh": "一定比較聰明",
+        "en": "It's always smarter"
+      },
+      {
+        "zh": "完全不用算力",
+        "en": "It needs no compute"
+      },
+      {
+        "zh": "只能在手機上用",
+        "en": "It only runs on phones"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "資料不必送到別人的雲端，也能依需求調整。這和「主權 AI」息息相關。",
+      "en": "Your data stays put and you can customize it — closely tied to sovereign AI."
+    },
+    "entityId": "mistral"
+  },
+  {
+    "id": "q06",
+    "q": {
+      "zh": "「主權 AI」指的是？",
+      "en": "What does \"sovereign AI\" mean?"
+    },
+    "options": [
+      {
+        "zh": "國家想用自己掌握的機房與模型發展 AI",
+        "en": "A country building AI on infrastructure and models it controls"
+      },
+      {
+        "zh": "只有國王能用的 AI",
+        "en": "AI only kings can use"
+      },
+      {
+        "zh": "禁止使用 AI",
+        "en": "Banning AI"
+      },
+      {
+        "zh": "一款手機 App",
+        "en": "A phone app"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "例如歐洲支持 Mistral Compute，就是不想完全依賴外國公司。",
+      "en": "Europe backing Mistral Compute is an example of not relying entirely on foreign firms."
+    },
+    "entityId": "mistral"
+  },
+  {
+    "id": "q07",
+    "q": {
+      "zh": "AI Agent 和一般聊天機器人最大的差別？",
+      "en": "How does an AI agent differ from a chatbot?"
+    },
+    "options": [
+      {
+        "zh": "Agent 會自己規劃步驟、操作工具去完成任務",
+        "en": "Agents plan steps and use tools to finish tasks"
+      },
+      {
+        "zh": "Agent 只會講笑話",
+        "en": "Agents only tell jokes"
+      },
+      {
+        "zh": "Agent 不需要模型",
+        "en": "Agents need no model"
+      },
+      {
+        "zh": "沒有差別",
+        "en": "No difference"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "Agent 能寄信、改檔案、執行程式，所以安全更重要。",
+      "en": "Agents can send email, edit files and run code — which makes safety more important."
+    },
+    "entityId": "crowdstrike"
+  },
+  {
+    "id": "q08",
+    "q": {
+      "zh": "「提示注入」攻擊是怎麼運作的？",
+      "en": "How does a prompt-injection attack work?"
+    },
+    "options": [
+      {
+        "zh": "把壞指令藏在 AI 會讀到的內容裡，騙它照做",
+        "en": "Hiding malicious instructions in content the AI reads"
+      },
+      {
+        "zh": "把病毒裝進 GPU",
+        "en": "Putting a virus in the GPU"
+      },
+      {
+        "zh": "拔掉機房電源",
+        "en": "Cutting data-center power"
+      },
+      {
+        "zh": "偷走鍵盤",
+        "en": "Stealing the keyboard"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "OWASP 把它列為大型語言模型應用的頭號風險；對 Agent 尤其危險。",
+      "en": "OWASP ranks it the top risk for LLM apps — especially dangerous for agents."
+    },
+    "entityId": "crowdstrike"
+  },
+  {
+    "id": "q09",
+    "q": {
+      "zh": "防範 AI Agent 出事，以下哪個是常見做法？",
+      "en": "A common way to keep AI agents safe?"
+    },
+    "options": [
+      {
+        "zh": "限制權限，讓它在沙盒裡執行並持續監控",
+        "en": "Limit permissions, sandbox it, and monitor it"
+      },
+      {
+        "zh": "給它所有密碼",
+        "en": "Give it every password"
+      },
+      {
+        "zh": "讓它半夜自由行動",
+        "en": "Let it roam free at night"
+      },
+      {
+        "zh": "關掉所有紀錄",
+        "en": "Turn off all logging"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "這正是 NVIDIA OpenShell 的思路：讓 Agent 在有規則的沙盒裡做事。",
+      "en": "That's the idea behind NVIDIA OpenShell: agents work inside a rule-bound sandbox."
+    },
+    "entityId": "crowdstrike"
+  },
+  {
+    "id": "q10",
+    "q": {
+      "zh": "什麼是「合成資料」？",
+      "en": "What is synthetic data?"
+    },
+    "options": [
+      {
+        "zh": "用電腦模擬產生、拿來訓練 AI 的資料",
+        "en": "Data generated by simulation to train AI"
+      },
+      {
+        "zh": "假新聞",
+        "en": "Fake news"
+      },
+      {
+        "zh": "壞掉的硬碟",
+        "en": "A broken hard drive"
+      },
+      {
+        "zh": "一種塑膠",
+        "en": "A kind of plastic"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "醫療資料難取得又涉及隱私，GE HealthCare 就用模擬環境訓練自動化 X 光與超音波。",
+      "en": "Medical data is scarce and private, so GE HealthCare trains autonomous imaging in simulation."
+    },
+    "entityId": "healthcare"
+  },
+  {
+    "id": "q11",
+    "q": {
+      "zh": "Token（詞元）是什麼？",
+      "en": "What is a token?"
+    },
+    "options": [
+      {
+        "zh": "AI 讀寫文字的最小單位",
+        "en": "The smallest unit of text an AI reads or writes"
+      },
+      {
+        "zh": "遊戲代幣",
+        "en": "A game coin"
+      },
+      {
+        "zh": "一種加密貨幣",
+        "en": "A cryptocurrency"
+      },
+      {
+        "zh": "GPU 的零件",
+        "en": "A GPU part"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "大約是一個中文字或半個英文單字，許多 AI 服務按 token 計費。",
+      "en": "Roughly one Chinese character or part of an English word; many AI services bill per token."
+    },
+    "entityId": null
+  },
+  {
+    "id": "q12",
+    "q": {
+      "zh": "「微調」（Fine-tuning）是？",
+      "en": "What is fine-tuning?"
+    },
+    "options": [
+      {
+        "zh": "用專業資料把現成模型再加強訓練",
+        "en": "Training an existing model further on specialist data"
+      },
+      {
+        "zh": "調整螢幕亮度",
+        "en": "Adjusting screen brightness"
+      },
+      {
+        "zh": "把模型刪掉重練",
+        "en": "Deleting and retraining from zero"
+      },
+      {
+        "zh": "修理伺服器",
+        "en": "Repairing servers"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "例如拿通用模型，用醫療或法律資料微調，讓它更懂該領域。",
+      "en": "E.g. tuning a general model on medical or legal data so it masters that field."
+    },
+    "entityId": null
+  },
+  {
+    "id": "q13",
+    "q": {
+      "zh": "AI 機房現在常用什麼單位形容規模？",
+      "en": "What unit now sizes AI data centers?"
+    },
+    "options": [
+      {
+        "zh": "GW（十億瓦）",
+        "en": "Gigawatts"
+      },
+      {
+        "zh": "公斤",
+        "en": "Kilograms"
+      },
+      {
+        "zh": "頁數",
+        "en": "Pages"
+      },
+      {
+        "zh": "像素",
+        "en": "Pixels"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "1 GW 約等於一座大型發電廠。2025 年 OpenAI 與 NVIDIA 的意向書曾以「至少 10 GW」為目標（該意向書 2026 年據報已擱置）。",
+      "en": "1 GW is roughly a large power plant. The 2025 OpenAI–NVIDIA letter of intent targeted at least 10 GW (that LOI was reportedly shelved in 2026)."
+    },
+    "entityId": "openai"
+  },
+  {
+    "id": "q14",
+    "q": {
+      "zh": "NVIDIA GB200 NVL72 一個機櫃裡有幾顆 GPU？",
+      "en": "How many GPUs are in one GB200 NVL72 rack?"
+    },
+    "options": [
+      {
+        "zh": "72 顆",
+        "en": "72"
+      },
+      {
+        "zh": "1 顆",
+        "en": "1"
+      },
+      {
+        "zh": "8 顆",
+        "en": "8"
+      },
+      {
+        "zh": "1 萬顆",
+        "en": "10,000"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "72 顆 Blackwell GPU 加 36 顆 Grace CPU，用 NVLink 串成「一顆超大 GPU」。",
+      "en": "72 Blackwell GPUs and 36 Grace CPUs, linked by NVLink into one giant GPU."
+    },
+    "entityId": "foxconn"
+  },
+  {
+    "id": "q15",
+    "q": {
+      "zh": "為什麼新的 AI 機櫃需要液冷？",
+      "en": "Why do new AI racks need liquid cooling?"
+    },
+    "options": [
+      {
+        "zh": "一櫃約 120 千瓦，熱到風扇吹不走",
+        "en": "~120 kW per rack is too hot for fans"
+      },
+      {
+        "zh": "因為比較好看",
+        "en": "It looks nicer"
+      },
+      {
+        "zh": "因為 GPU 怕乾",
+        "en": "GPUs dislike dryness"
+      },
+      {
+        "zh": "法律規定要用水",
+        "en": "The law requires water"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "冷卻液流過貼在晶片上的冷板，把熱直接帶走，也更省電。",
+      "en": "Coolant through cold plates carries heat straight off the chips, and saves energy."
+    },
+    "entityId": "supermicro"
+  },
+  {
+    "id": "q16",
+    "q": {
+      "zh": "NVLink 的作用是？",
+      "en": "What does NVLink do?"
+    },
+    "options": [
+      {
+        "zh": "讓多顆 GPU 高速交換資料，像一顆大 GPU",
+        "en": "Lets GPUs share data fast, like one big GPU"
+      },
+      {
+        "zh": "連接 Wi‑Fi",
+        "en": "Connects to Wi-Fi"
+      },
+      {
+        "zh": "幫 GPU 充電",
+        "en": "Charges GPUs"
+      },
+      {
+        "zh": "壓縮影片",
+        "en": "Compresses video"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "AI 模型太大，一顆 GPU 放不下，GPU 之間溝通的速度就變得非常關鍵。",
+      "en": "Models are too big for one GPU, so GPU-to-GPU speed becomes critical."
+    },
+    "entityId": "foxconn"
+  },
+  {
+    "id": "q17",
+    "q": {
+      "zh": "AWS 的 Trainium 屬於哪一種晶片？",
+      "en": "What kind of chip is AWS Trainium?"
+    },
+    "options": [
+      {
+        "zh": "ASIC：為 AI 特別設計的專用晶片",
+        "en": "An ASIC: a custom chip built for AI"
+      },
+      {
+        "zh": "手機晶片",
+        "en": "A phone chip"
+      },
+      {
+        "zh": "記憶卡",
+        "en": "A memory card"
+      },
+      {
+        "zh": "顯示器",
+        "en": "A display"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "專用晶片可能更省錢省電；大雲端通常 GPU 和自研晶片兩種都用。",
+      "en": "Custom chips can save cost and power; big clouds usually use both GPUs and their own chips."
+    },
+    "entityId": "aws"
+  },
+  {
+    "id": "q18",
+    "q": {
+      "zh": "HBM（高頻寬記憶體）為什麼對 AI 很重要？",
+      "en": "Why does HBM memory matter for AI?"
+    },
+    "options": [
+      {
+        "zh": "模型很大，GPU 拿資料的速度常是瓶頸",
+        "en": "Models are huge; feeding data to the GPU is often the bottleneck"
+      },
+      {
+        "zh": "它讓螢幕更亮",
+        "en": "It brightens screens"
+      },
+      {
+        "zh": "它是散熱片",
+        "en": "It's a heatsink"
+      },
+      {
+        "zh": "它可以存照片",
+        "en": "It stores photos"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "算得再快，資料送不進來也沒用；所以 HBM 和 GPU 一樣搶手。",
+      "en": "Speed is useless if data can't arrive in time — so HBM is as sought-after as GPUs."
+    },
+    "entityId": null
+  },
+  {
+    "id": "q19",
+    "q": {
+      "zh": "CoreWeave 在轉型做 AI 之前是做什麼的？",
+      "en": "What did CoreWeave do before AI?"
+    },
+    "options": [
+      {
+        "zh": "用 GPU 挖加密貨幣",
+        "en": "Mined crypto with GPUs"
+      },
+      {
+        "zh": "賣手機",
+        "en": "Sold phones"
+      },
+      {
+        "zh": "拍電影",
+        "en": "Made films"
+      },
+      {
+        "zh": "開餐廳",
+        "en": "Ran restaurants"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "挖礦和訓練 AI 都靠 GPU 平行運算，所以設備和經驗可以直接轉用。",
+      "en": "Mining and AI both rely on GPU parallelism, so the gear and know-how carried over."
+    },
+    "entityId": "coreweave"
+  },
+  {
+    "id": "q20",
+    "q": {
+      "zh": "「Neocloud」主要在做什麼？",
+      "en": "What do neoclouds mainly do?"
+    },
+    "options": [
+      {
+        "zh": "專門出租 GPU 給 AI 公司",
+        "en": "Rent GPUs to AI companies"
+      },
+      {
+        "zh": "賣雲朵造型的枕頭",
+        "en": "Sell cloud-shaped pillows"
+      },
+      {
+        "zh": "設計 GPU",
+        "en": "Design GPUs"
+      },
+      {
+        "zh": "開發聊天機器人",
+        "en": "Build chatbots"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "像 CoreWeave、Lambda、Nebius，比大雲端更專注在 GPU 出租。",
+      "en": "Like CoreWeave, Lambda, Nebius — focused on GPU rental more than the big clouds."
+    },
+    "entityId": "coreweave"
+  },
+  {
+    "id": "q21",
+    "q": {
+      "zh": "2024 年 CoreWeave 有多少營收來自 Microsoft？",
+      "en": "How much of CoreWeave's 2024 revenue came from Microsoft?"
+    },
+    "options": [
+      {
+        "zh": "約 62%",
+        "en": "About 62%"
+      },
+      {
+        "zh": "約 1%",
+        "en": "About 1%"
+      },
+      {
+        "zh": "0%",
+        "en": "0%"
+      },
+      {
+        "zh": "100%",
+        "en": "100%"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "營收高度集中在少數大客戶，是觀察 Neocloud 風險的重點。",
+      "en": "Heavy customer concentration is a key risk to watch in neoclouds."
+    },
+    "entityId": "coreweave"
+  },
+  {
+    "id": "q22",
+    "q": {
+      "zh": "2026 年 2 月，ChatGPT 每週有多少使用者？",
+      "en": "How many weekly ChatGPT users were there in Feb 2026?"
+    },
+    "options": [
+      {
+        "zh": "約 9 億",
+        "en": "About 900 million"
+      },
+      {
+        "zh": "約 900 萬",
+        "en": "About 9 million"
+      },
+      {
+        "zh": "約 9 萬",
+        "en": "About 90,000"
+      },
+      {
+        "zh": "約 90 億",
+        "en": "About 9 billion"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "OpenAI 公布 9 億週活躍使用者與 5,000 萬付費訂閱。",
+      "en": "OpenAI reported 900M weekly users and 50M paying subscribers."
+    },
+    "entityId": "openai"
+  },
+  {
+    "id": "q23",
+    "q": {
+      "zh": "2025 年 NVIDIA 對 OpenAI 的「最多 1,000 億美元」投資，是哪一種協議？",
+      "en": "NVIDIA's 2025 \"up to $100B\" OpenAI investment was what kind of agreement?"
+    },
+    "options": [
+      {
+        "zh": "意向書，隨每 1 GW 上線分批投資",
+        "en": "A letter of intent, investing as each gigawatt comes online"
+      },
+      {
+        "zh": "已經一次付清",
+        "en": "Paid in full upfront"
+      },
+      {
+        "zh": "貸款",
+        "en": "A loan"
+      },
+      {
+        "zh": "捐款",
+        "en": "A donation"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "意向書不是最終合約：2026 年 NVIDIA 改以 300 億美元股權入股，原意向書據報已擱置。新聞看到大數字時，要注意協議類型。",
+      "en": "A letter of intent isn't a final contract: in 2026 NVIDIA instead took a US$30B equity stake and the LOI was reportedly shelved. Always check the deal type behind big numbers."
+    },
+    "entityId": "openai"
+  },
+  {
+    "id": "q24",
+    "q": {
+      "zh": "Anthropic 的「憲法式 AI」是什麼做法？",
+      "en": "What is Anthropic's \"Constitutional AI\"?"
+    },
+    "options": [
+      {
+        "zh": "讓 AI 依照一份寫好的原則清單自我檢討、修改回答",
+        "en": "AI critiques and revises its answers against written principles"
+      },
+      {
+        "zh": "讓 AI 背法條",
+        "en": "Making AI memorize laws"
+      },
+      {
+        "zh": "只讓政府使用 AI",
+        "en": "Only governments use AI"
+      },
+      {
+        "zh": "用投票決定答案",
+        "en": "Voting on answers"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "規則寫得清楚、可公開檢視，也減少人工標註負擔。",
+      "en": "Explicit, reviewable rules and less human labeling."
+    },
+    "entityId": "anthropic"
+  },
+  {
+    "id": "q25",
+    "q": {
+      "zh": "Anthropic 訓練和執行 Claude 用了哪些晶片？",
+      "en": "Which chips does Anthropic use for Claude?"
+    },
+    "options": [
+      {
+        "zh": "NVIDIA GPU、Google TPU、Amazon Trainium 都有",
+        "en": "NVIDIA GPUs, Google TPUs and Amazon Trainium"
+      },
+      {
+        "zh": "只用手機晶片",
+        "en": "Only phone chips"
+      },
+      {
+        "zh": "只用 CPU",
+        "en": "Only CPUs"
+      },
+      {
+        "zh": "不需要晶片",
+        "en": "No chips"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "同時使用多家晶片，可以分散風險、爭取更好的價格。",
+      "en": "Using several chip vendors spreads risk and improves pricing."
+    },
+    "entityId": "anthropic"
+  },
+  {
+    "id": "q26",
+    "q": {
+      "zh": "AI 寫程式的「Coding Agent」階段，AI 會做什麼？",
+      "en": "In the coding-agent stage, what does AI do?"
+    },
+    "options": [
+      {
+        "zh": "自己規劃、修改多個檔案、跑測試",
+        "en": "Plan, edit many files and run tests on its own"
+      },
+      {
+        "zh": "只猜下一個字",
+        "en": "Only guess the next word"
+      },
+      {
+        "zh": "只會畫圖",
+        "en": "Only draw pictures"
+      },
+      {
+        "zh": "什麼都不做",
+        "en": "Nothing"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "從自動補完→對話→Agent，AI 做的事越多，人類把關越重要。",
+      "en": "Autocomplete → chat → agent: the more AI does, the more human review matters."
+    },
+    "entityId": "cursor"
+  },
+  {
+    "id": "q27",
+    "q": {
+      "zh": "2026 年哪家公司收購了 Cursor？",
+      "en": "Which company acquired Cursor in 2026?"
+    },
+    "options": [
+      {
+        "zh": "SpaceX",
+        "en": "SpaceX"
+      },
+      {
+        "zh": "Foxconn",
+        "en": "Foxconn"
+      },
+      {
+        "zh": "Supermicro",
+        "en": "Supermicro"
+      },
+      {
+        "zh": "CrowdStrike",
+        "en": "CrowdStrike"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "約 600 億美元的全股票交易，8 月完成後併入 SpaceXAI 部門。",
+      "en": "A ~$60B all-stock deal that closed in August, folding Cursor into SpaceXAI."
+    },
+    "entityId": "cursor"
+  },
+  {
+    "id": "q28",
+    "q": {
+      "zh": "鴻海（Foxconn）在 AI 供應鏈扮演什麼角色？",
+      "en": "What's Foxconn's role in the AI supply chain?"
+    },
+    "options": [
+      {
+        "zh": "把 NVIDIA 晶片組裝成整櫃 AI 伺服器",
+        "en": "Assembling NVIDIA chips into rack-scale AI servers"
+      },
+      {
+        "zh": "設計 AI 模型",
+        "en": "Designing AI models"
+      },
+      {
+        "zh": "經營聊天機器人",
+        "en": "Running a chatbot"
+      },
+      {
+        "zh": "出租 GPU",
+        "en": "Renting GPUs"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "2026 年第一季營收年增約 30%，主要靠 AI 伺服器需求。",
+      "en": "Q1 2026 revenue rose ~30%, driven by AI server demand."
+    },
+    "entityId": "foxconn"
+  },
+  {
+    "id": "q29",
+    "q": {
+      "zh": "2026 年第一季全球雲端市占第一名是？",
+      "en": "Who led global cloud infrastructure share in Q1 2026?"
+    },
+    "options": [
+      {
+        "zh": "AWS（約 28%）",
+        "en": "AWS (~28%)"
+      },
+      {
+        "zh": "Foxconn",
+        "en": "Foxconn"
+      },
+      {
+        "zh": "Mistral",
+        "en": "Mistral"
+      },
+      {
+        "zh": "CrowdStrike",
+        "en": "CrowdStrike"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "Synergy Research 數據：AWS 約 28%、Microsoft 約 21%、Google Cloud 約 14%。",
+      "en": "Synergy Research: AWS ~28%, Microsoft ~21%, Google Cloud ~14%."
+    },
+    "entityId": "aws"
+  },
+  {
+    "id": "q30",
+    "q": {
+      "zh": "藥廠 Eli Lilly 用 1,000 多顆 NVIDIA B300 GPU 打造超級電腦，主要用來？",
+      "en": "Eli Lilly built a 1,000+ B300 GPU supercomputer mainly to…"
+    },
+    "options": [
+      {
+        "zh": "加速新藥研發",
+        "en": "Speed up drug discovery"
+      },
+      {
+        "zh": "挖加密貨幣",
+        "en": "Mine crypto"
+      },
+      {
+        "zh": "玩遊戲",
+        "en": "Play games"
+      },
+      {
+        "zh": "拍電影",
+        "en": "Make films"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "AI 可以先在電腦中篩選大量候選分子，縮短研發時間。",
+      "en": "AI can screen huge numbers of candidate molecules in silico, shortening R&D."
+    },
+    "entityId": "healthcare"
+  },
+  {
+    "id": "q31",
+    "q": {
+      "zh": "AI 伺服器說「L11 出貨」是什麼意思？",
+      "en": "What does an \"L11 shipment\" of AI servers mean?"
+    },
+    "options": [
+      {
+        "zh": "整個機櫃組好、接好線並整櫃測試後出貨",
+        "en": "A full rack built, cabled and tested as a whole"
+      },
+      {
+        "zh": "只出貨主機板",
+        "en": "Shipping motherboards only"
+      },
+      {
+        "zh": "出貨 11 台筆電",
+        "en": "Shipping 11 laptops"
+      },
+      {
+        "zh": "第 11 代 GPU",
+        "en": "An 11th-gen GPU"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "L6 是半成品、L10 是完整伺服器、L11 是整櫃、L12 是多櫃叢集。現在 AI 伺服器主力是 L11。",
+      "en": "L6 semi-finished, L10 full server, L11 full rack, L12 multi-rack cluster. AI servers now ship mostly at L11."
+    },
+    "entityId": "quanta"
+  },
+  {
+    "id": "q32",
+    "q": {
+      "zh": "2026 年第二季，廣達單季營收大約多少？",
+      "en": "Roughly what was Quanta's Q2 2026 revenue?"
+    },
+    "options": [
+      {
+        "zh": "約 1.04 兆新台幣，首度單季破兆",
+        "en": "About NT$1.04 trillion — its first quarter above NT$1 trillion"
+      },
+      {
+        "zh": "約 100 億新台幣",
+        "en": "About NT$10 billion"
+      },
+      {
+        "zh": "約 1,000 萬新台幣",
+        "en": "About NT$10 million"
+      },
+      {
+        "zh": "約 10 兆新台幣",
+        "en": "About NT$10 trillion"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "AI 伺服器帶動營收年增約一倍，但毛利率只有約 5%。",
+      "en": "AI servers roughly doubled revenue year on year — but gross margin was only about 5%."
+    },
+    "entityId": "quanta"
+  },
+  {
+    "id": "q33",
+    "q": {
+      "zh": "代工廠改用「代料」模式後，最可能發生什麼事？",
+      "en": "What's likely when a manufacturer switches to consignment?"
+    },
+    "options": [
+      {
+        "zh": "帳上營收變少，但出貨不一定變少",
+        "en": "Reported revenue falls, though shipments may not"
+      },
+      {
+        "zh": "工廠停工",
+        "en": "The factory shuts down"
+      },
+      {
+        "zh": "GPU 變便宜",
+        "en": "GPUs get cheaper"
+      },
+      {
+        "zh": "出貨一定翻倍",
+        "en": "Shipments must double"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "客戶自己買關鍵零件，代工廠只算組裝的錢。看營收數字時要注意這種會計口徑變化。",
+      "en": "The customer buys key parts, so the manufacturer books only its own share — watch for this when reading revenue figures."
+    },
+    "entityId": "quanta"
+  },
+  {
+    "id": "q34",
+    "q": {
+      "zh": "雲端公司的「未完成訂單」代表什麼？",
+      "en": "What does a cloud company's backlog represent?"
+    },
+    "options": [
+      {
+        "zh": "已簽約、但還沒提供服務的金額",
+        "en": "Contracted business not yet delivered"
+      },
+      {
+        "zh": "已經虧掉的錢",
+        "en": "Money already lost"
+      },
+      {
+        "zh": "員工人數",
+        "en": "Headcount"
+      },
+      {
+        "zh": "機房的耗電量",
+        "en": "Data-center power use"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "像餐廳訂位本：還沒入帳，但代表未來的生意。截至 2026 年第二季：微軟商用剩餘履約義務約 6,780 億、Google Cloud 約 5,140 億、AWS 約 4,960 億美元。",
+      "en": "Like a reservation book: not revenue yet, but future business. As of the June 2026 quarter: Microsoft commercial RPO ~US$678B, Google Cloud ~US$514B, AWS ~US$496B."
+    },
+    "entityId": "microsoft"
+  },
+  {
+    "id": "q35",
+    "q": {
+      "zh": "Google 第八代 TPU 為什麼拆成 8t 和 8i 兩顆？",
+      "en": "Why did Google split its 8th-gen TPU into 8t and 8i?"
+    },
+    "options": [
+      {
+        "zh": "分別針對訓練和推論最佳化",
+        "en": "To optimize separately for training and inference"
+      },
+      {
+        "zh": "因為一顆太重",
+        "en": "One chip was too heavy"
+      },
+      {
+        "zh": "為了換顏色",
+        "en": "To change colors"
+      },
+      {
+        "zh": "法律規定",
+        "en": "A legal requirement"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "AI Agent 時代推論次數暴增，值得為推論專門設計晶片。",
+      "en": "Agents call models so often that inference deserves its own chip."
+    },
+    "entityId": "google-cloud"
+  },
+  {
+    "id": "q36",
+    "q": {
+      "zh": "Meta 為什麼在 2026 年簽下核電供應協議？",
+      "en": "Why did Meta sign nuclear power deals in 2026?"
+    },
+    "options": [
+      {
+        "zh": "AI 資料中心需要大量、穩定的電力",
+        "en": "AI data centers need huge, steady power"
+      },
+      {
+        "zh": "為了發電賺錢",
+        "en": "To sell electricity"
+      },
+      {
+        "zh": "為了取代廣告",
+        "en": "To replace ads"
+      },
+      {
+        "zh": "為了冷卻手機",
+        "en": "To cool phones"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "Prometheus 約 1 GW、Hyperion 未來可達 5 GW，電網一時供應不了。",
+      "en": "Prometheus is ~1 GW and Hyperion could reach 5 GW — more than grids can supply quickly."
+    },
+    "entityId": "meta"
+  },
+  {
+    "id": "q37",
+    "q": {
+      "zh": "「多模態」AI 指的是？",
+      "en": "What is multimodal AI?"
+    },
+    "options": [
+      {
+        "zh": "能同時理解文字、圖片、聲音、影片的 AI",
+        "en": "AI that understands text, images, audio and video together"
+      },
+      {
+        "zh": "有很多種顏色的 AI",
+        "en": "AI with many colors"
+      },
+      {
+        "zh": "只能讀文字的 AI",
+        "en": "Text-only AI"
+      },
+      {
+        "zh": "在很多台電腦上跑的 AI",
+        "en": "AI running on many computers"
+      }
+    ],
+    "answer": 0,
+    "explain": {
+      "zh": "Gemini 從設計之初就是多模態，Gemini 3 一次能讀約 100 萬個 token。",
+      "en": "Gemini was multimodal from the start; Gemini 3 reads about a million tokens at once."
+    },
+    "entityId": "gemini"
+  }
+]

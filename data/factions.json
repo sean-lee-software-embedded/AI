@@ -1,0 +1,264 @@
+{
+  "asOf": "2026-10",
+  "leader": {
+    "id": "nvidia",
+    "name": {
+      "zh": "鑄劍山莊・皮衣盟主",
+      "en": "Sword Forge Manor · The Leather-Jacket Grandmaster"
+    },
+    "short": {
+      "zh": "鑄劍山莊",
+      "en": "Sword Forge Manor"
+    },
+    "real": {
+      "zh": "NVIDIA",
+      "en": "NVIDIA"
+    },
+    "color": "#76B900",
+    "plain": {
+      "zh": "NVIDIA 設計 AI 最常用的運算晶片（GPU），還有讓工程師寫 GPU 程式的軟體 CUDA。幾乎所有 AI 公司都用它的產品，所以它是這張地圖的中心。",
+      "en": "NVIDIA designs the chips (GPUs) most AI runs on, plus CUDA, the software engineers use to program them. Nearly every AI company relies on it — so it sits at the center of this map."
+    },
+    "story": {
+      "zh": "NVIDIA 1993 年成立，原本做遊戲顯示卡。後來研究人員發現 GPU 能同時做大量計算，非常適合訓練 AI；NVIDIA 在 2006 年推出 CUDA，讓 GPU 能寫一般程式。近二十年累積下來的軟體與開發者，讓別家晶片很難取代它。",
+      "en": "Founded in 1993, NVIDIA began with gaming graphics cards. Researchers found GPUs could run massive parallel math — perfect for AI. CUDA, launched in 2006, let anyone program GPUs, and nearly two decades of software and developers make NVIDIA hard to replace."
+    },
+    "links": {
+      "official": "https://www.nvidia.com",
+      "about": "https://www.nvidia.com/en-us/about-nvidia/"
+    },
+    "image": "assets/scenes/nvidia.webp",
+    "imagePrompt": "Character: a cheerful cartoon grandmaster blacksmith with short silver-white hair, wearing a black leather jacket over a black top and wuxia robes, presenting a glowing green sword forged from a computer chip with a keynote-style open-hand gesture, green stage light and a giant forge behind, original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: confident.",
+    "map": {
+      "x": 50,
+      "y": 50
+    },
+    "sources": [
+      {
+        "title": "About NVIDIA (NVIDIA)",
+        "url": "https://www.nvidia.com/en-us/about-nvidia/"
+      }
+    ],
+    "slideLabel": "NVIDIA"
+  },
+  "factions": [
+    {
+      "id": "csps",
+      "name": {
+        "zh": "少林寺",
+        "en": "Shaolin Temple"
+      },
+      "real": {
+        "zh": "CSPs（雲端服務大廠）",
+        "en": "CSPs (cloud giants)"
+      },
+      "color": "#D4A017",
+      "plain": {
+        "zh": "Amazon、Google、Microsoft 這類雲端大廠。他們買下最多 GPU，蓋成巨大的資料中心，再按用量把算力租給全世界，同時也開始自己設計 AI 晶片。",
+        "en": "Cloud giants like Amazon, Google and Microsoft. They buy the most GPUs, build vast data centers, rent compute to the world by usage — and increasingly design their own AI chips."
+      },
+      "image": "assets/scenes/csps.webp",
+      "imagePrompt": "Scene: a grand mountain temple whose halls are filled with rows of glowing server racks shaped like incense towers, monks carrying glowing chips, golden roofs in mist. Accent color: golden yellow. Mood: majestic.",
+      "map": {
+        "x": 50,
+        "y": 11
+      },
+      "short": {
+        "zh": "雲端大廠",
+        "en": "Cloud giants"
+      },
+      "slideLabel": "CSPs"
+    },
+    {
+      "id": "labs",
+      "name": {
+        "zh": "天下五絕",
+        "en": "The Five Greats"
+      },
+      "real": {
+        "zh": "AI Labs（頂尖 AI 實驗室）",
+        "en": "AI Labs (frontier labs)"
+      },
+      "color": "#7B4FB5",
+      "plain": {
+        "zh": "開發最先進 AI 模型的頂尖實驗室，像 OpenAI、Anthropic、Google DeepMind。訓練一個頂級模型可能要上萬顆 GPU、花費數十億美元。",
+        "en": "The labs building the most advanced AI models — OpenAI, Anthropic, Google DeepMind. Training a frontier model can take tens of thousands of GPUs and billions of dollars."
+      },
+      "image": "assets/scenes/labs.webp",
+      "imagePrompt": "Scene: a misty mountain summit arena with five stone platforms, glowing purple sword trails crossing in the sky, a friendly sparring match atmosphere. Accent color: purple. Mood: epic.",
+      "map": {
+        "x": 80,
+        "y": 27
+      },
+      "short": {
+        "zh": "AI 實驗室",
+        "en": "AI labs"
+      },
+      "slideLabel": "AI Labs"
+    },
+    {
+      "id": "natives",
+      "name": {
+        "zh": "江湖新秀",
+        "en": "Rising Heroes"
+      },
+      "real": {
+        "zh": "AI Natives（AI 原生新創）",
+        "en": "AI Natives (AI-first startups)"
+      },
+      "color": "#E8772E",
+      "plain": {
+        "zh": "從第一天就以 AI 為核心的新創公司。投影片寫「10K+」，代表全世界有上萬家；這裡列出的是投影片點名的代表。",
+        "en": "Startups built around AI from day one. The slide says 10K+ — more than ten thousand worldwide; these are the ones it names."
+      },
+      "image": "assets/scenes/natives.webp",
+      "imagePrompt": "Scene: a bustling market town at the foot of a mountain, many young cheerful swordsmen with orange sashes practicing different moves, lanterns and banners without text. Accent color: orange. Mood: energetic.",
+      "map": {
+        "x": 82,
+        "y": 62
+      },
+      "short": {
+        "zh": "AI 新創",
+        "en": "AI startups"
+      },
+      "slideLabel": "AI Natives",
+      "slideTitle": "10K+ Startups"
+    },
+    {
+      "id": "neoclouds",
+      "name": {
+        "zh": "兵器行",
+        "en": "Weapon Lenders"
+      },
+      "real": {
+        "zh": "Neoclouds（新型 GPU 雲端）",
+        "en": "Neoclouds (GPU clouds)"
+      },
+      "color": "#1A9E8F",
+      "plain": {
+        "zh": "專門出租 GPU 的新型雲端業者。不像大雲端什麼都賣，他們專注把最新 GPU 快速租給 AI 公司。",
+        "en": "New-breed clouds that specialize in renting GPUs. Unlike the giants, they focus on getting the newest GPUs to AI companies fast."
+      },
+      "image": "assets/scenes/neoclouds.webp",
+      "imagePrompt": "Scene: a lively weapon shop street with racks of glowing teal swords and blank wooden rental tags, merchants waving customers in. Accent color: teal. Mood: welcoming.",
+      "map": {
+        "x": 66,
+        "y": 88
+      },
+      "short": {
+        "zh": "GPU 雲端",
+        "en": "GPU clouds"
+      },
+      "slideLabel": "Neoclouds"
+    },
+    {
+      "id": "oem",
+      "name": {
+        "zh": "鐵匠鋪",
+        "en": "Blacksmiths"
+      },
+      "real": {
+        "zh": "ODM & OEM（伺服器製造商）",
+        "en": "ODM & OEM (server makers)"
+      },
+      "color": "#4A6382",
+      "plain": {
+        "zh": "把 NVIDIA 晶片組裝成伺服器和整櫃系統的廠商。很多是台灣公司，是 AI 供應鏈不可或缺的一環。",
+        "en": "The makers who turn NVIDIA chips into servers and full racks — many of them Taiwanese, and indispensable to the AI supply chain."
+      },
+      "image": "assets/scenes/oem.webp",
+      "imagePrompt": "Scene: a row of busy riverside forges where cheerful smiths hammer server-shaped armor, sparks flying, steel blue banners without text. Accent color: steel blue. Mood: hardworking.",
+      "map": {
+        "x": 34,
+        "y": 88
+      },
+      "short": {
+        "zh": "伺服器製造",
+        "en": "Server makers"
+      },
+      "slideLabel": "ODM & OEM"
+    },
+    {
+      "id": "enterprise",
+      "name": {
+        "zh": "各地世家",
+        "en": "The Great Clans"
+      },
+      "real": {
+        "zh": "Enterprise & Industrial（各行各業）",
+        "en": "Enterprise & Industrial"
+      },
+      "color": "#C2185B",
+      "plain": {
+        "zh": "汽車、醫療、金融、製造等各行各業，把 AI 用在自家業務上。這裡每一張卡代表一個「產業」，並列出代表企業。",
+        "en": "Autos, healthcare, finance, manufacturing and more, putting AI to work. Each card here is a whole industry, with example companies."
+      },
+      "image": "assets/scenes/enterprise.webp",
+      "imagePrompt": "Scene: a panorama of different clan estates — a car workshop, a herbal clinic, a counting house — connected by mountain roads, magenta flags without text. Accent color: magenta. Mood: prosperous.",
+      "map": {
+        "x": 18,
+        "y": 62
+      },
+      "short": {
+        "zh": "產業應用",
+        "en": "Industries"
+      },
+      "slideLabel": "Enterprise & Industrial"
+    },
+    {
+      "id": "openshell",
+      "name": {
+        "zh": "六扇門",
+        "en": "The Constabulary"
+      },
+      "real": {
+        "zh": "OpenShell 夥伴（AI Agent 安全）",
+        "en": "OpenShell partners (agent safety)"
+      },
+      "color": "#1F3A93",
+      "plain": {
+        "zh": "AI Agent 能自己操作電腦、寄信、改資料後，安全就變得很重要。這些夥伴和 NVIDIA 一起支持 OpenShell：讓 AI Agent 在有規則的沙盒裡執行。",
+        "en": "Once AI agents can operate computers, send email and change data, safety becomes critical. These partners back NVIDIA OpenShell, which runs agents inside rule-bound sandboxes."
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment (NVIDIA)",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        },
+        {
+          "title": "NVIDIA Launches Open Agent Safety Platform for AI Agents (Channel Insider)",
+          "url": "https://www.channelinsider.com/ai/nvidia-launches-open-agent-safety-platform/"
+        },
+        {
+          "title": "NVIDIA Launches OpenShell Reference Architecture (NVIDIA, 2026-10-21)",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
+        }
+      ],
+      "image": "assets/scenes/openshell.webp",
+      "imagePrompt": "Scene: a city gate watched by friendly constables in deep blue uniforms guiding small glowing helper spirits (AI agents) through a protective shimmering shell barrier. Accent color: deep blue. Mood: reassuring.",
+      "map": {
+        "x": 20,
+        "y": 27
+      },
+      "short": {
+        "zh": "AI 安全夥伴",
+        "en": "AI safety partners"
+      },
+      "slideLabel": "OpenShell Partners",
+      "slideTitle": "Over 100 Partners Advance Agent Safety with NVIDIA OpenShell"
+    }
+  ],
+  "keynote": {
+    "name": "NVIDIA GTC Berlin",
+    "date": "2026-10-21",
+    "venue": "Tempodrom, Berlin",
+    "note": {
+      "zh": "門派分類與名單取自 2026 年 10 月 21 日 NVIDIA GTC Berlin 主題演講的兩張投影片。",
+      "en": "Faction categories and rosters come from two slides in NVIDIA's GTC Berlin keynote on Oct 21, 2026."
+    },
+    "video": {
+      "title": "【柏林最新・完整版】黃仁勳 GTC 主題演講：「別只消費AI，要生產AI」全場 93 分鐘｜中英雙語字幕（科技立委葛如鈞·寶博士）",
+      "url": "https://www.youtube.com/watch?v=aQU7SXOPMEw"
+    }
+  }
+}
