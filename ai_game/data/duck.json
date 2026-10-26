@@ -491,5 +491,54 @@
   "videosLead": {
     "zh": "從 19 秒到 8 分半，挑一支剛好塞得進你現在空檔的長度。",
     "en": "From 19 seconds to eight and a half minutes — pick whatever fits the gap in your day."
-  }
+  },
+  "labTitle": {
+    "zh": "🧪 Sean 的鴨鴨實驗室",
+    "en": "🧪 Sean's Duck Lab"
+  },
+  "labLead": {
+    "zh": "光看別人玩不過癮——站長 Sean 自己在 NVIDIA 的 Brev 雲端 GPU 平台上，花了一個小時訓練小鴨。以下都是模擬器裡的實測畫面。",
+    "en": "Watching wasn't enough — the site's author, Sean, spent an hour training the duck on NVIDIA Brev, a cloud GPU platform. Both clips are real runs in the simulator."
+  },
+  "labLink": {
+    "title": {
+      "zh": "什麼是 NVIDIA Brev？（官方文件）",
+      "en": "What is NVIDIA Brev? (official docs)"
+    },
+    "url": "https://docs.nvidia.com/brev/latest"
+  },
+  "lab": [
+    {
+      "src": "assets/duck/sean-brev-walk.mp4",
+      "poster": "assets/duck/sean-brev-walk.jpg",
+      "meta": {
+        "zh": "實測 · 30 秒 · Brev 上訓練一小時",
+        "en": "Hands-on · 30 sec · one hour of training on Brev"
+      },
+      "headline": {
+        "zh": "練功一小時：站得穩、轉得動、走得了",
+        "en": "One hour of practice: steady, turning, walking"
+      },
+      "blurb": {
+        "zh": "在 Brev 上訓練約一個小時後，小鴨在模擬器裡已經能站穩、轉身、一步一步踏著走。這就是十二堂必修第 6 堂說的「先在虛擬世界練功」——只是這次的教練換成了 Sean。",
+        "en": "After about an hour of training on Brev, the duck can stand steady, turn and step along in the simulator. That's lesson 6's “practise in a virtual world first” — with Sean as the coach this time."
+      }
+    },
+    {
+      "src": "assets/duck/sean-gangnam.mp4",
+      "poster": "assets/duck/sean-gangnam.jpg",
+      "meta": {
+        "zh": "實測 · 20 秒 · 挑戰中",
+        "en": "Hands-on · 20 sec · work in progress"
+      },
+      "headline": {
+        "zh": "挑戰江南 Style：騎馬舞變成鞠躬謝罪",
+        "en": "Gangnam Style attempt: the horse dance became a deep apology bow"
+      },
+      "blurb": {
+        "zh": "走路學會了，Sean 決定加碼：教小鴨跳江南 Style。綠色半透明的身影是牠該跟上的示範動作，小鴨則……很努力。目前看起來比較像在鞠躬謝罪，離騎馬舞還有一段路。強化學習就是這樣：先跌很多次，才學得會。",
+        "en": "Walking done, Sean upped the ante: teach the duck Gangnam Style. The translucent green figure is the move it's meant to follow; the duck is… trying very hard. For now it looks more like a deep apology bow than a horse dance. That's reinforcement learning — lots of falls before the first good move."
+      }
+    }
+  ]
 }
