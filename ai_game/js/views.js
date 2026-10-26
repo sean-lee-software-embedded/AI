@@ -1,6 +1,7 @@
 import { db, asset, present } from './data.js';
 import { t, L, altBoth, RANKS, getLang } from './i18n.js';
 import { store } from './store.js';
+import { duckWatches } from './stats.js';
 import { h, ext, factionColor, factionTag, heroTile, importanceLabel, bondLabel, logoSrcs } from './ui.js';
 
 const go = (hash) => { location.hash = hash; };
@@ -136,12 +137,23 @@ function duckArt(src, emoji, cls) {
   return h('img', { class: cls, src: asset(src), alt: '', decoding: 'async', onerror: (e) => e.target.replaceWith(stand()) });
 }
 
+/** "Watched N times" badge; stays hidden until the count arrives, or for good if the counter is unreachable. */
+function duckWatched(cls, visit = false) {
+  const badge = h('span', { class: cls, hidden: true });
+  duckWatches({ visit }).then((n) => {
+    if (!n) return;
+    badge.textContent = t('watched', { n: n.toLocaleString(getLang() === 'zh' ? 'zh-TW' : 'en-US') });
+    badge.hidden = false;
+  });
+  return badge;
+}
+
 function duckBanner() {
   const d = db.duck;
   return h('a', { class: 'duck-hero', href: '#/duck' },
     duckArt(d.image, '🧥\n🦆🦆\n🦆🦆', 'duck-hero-art'),
     h('span', { class: 'duck-hero-text' },
-      h('span', { class: 'duck-kicker' }, L(d.kicker)),
+      h('span', { class: 'duck-kicker' }, L(d.kicker), ' ', duckWatched('duck-watched')),
       h('strong', { class: 'duck-hero-title' }, L(d.title)),
       h('span', { class: 'duck-hero-teaser' }, L(d.teaser)),
       h('span', { class: 'duck-cta', 'aria-hidden': 'true' }, L(d.cta))));
@@ -153,7 +165,7 @@ export function duckView(root) {
     .map((g) => h('a', { class: 'tag tag-plain', href: `#/dict/${g.id}` }, L(g.real)));
   root.replaceChildren(h('article', { class: 'duck' },
     h('p', {}, h('a', { href: '#/map', class: 'btn-text' }, t('back'))),
-    h('p', { class: 'duck-kicker' }, L(d.kicker)),
+    h('p', { class: 'duck-kicker' }, L(d.kicker), ' ', duckWatched('duck-watched', true)),
     h('h1', {}, L(d.title)),
     h('p', { class: 'lead' }, L(d.lead)),
     h('ol', { class: 'duck-panels' }, d.panels.map((p, i) => h('li', { class: 'duck-panel' },

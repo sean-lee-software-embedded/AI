@@ -5,8 +5,8 @@ const STRINGS = {
   seenMark: { zh: '（已收錄）', en: '(collected)' },
   brand: { zh: 'AI 群俠傳', en: 'AI Wuxia Chronicles' },
   disclaimer: {
-    zh: '本站為個人學習用途，非 NVIDIA 或任何公司官方網站，與各公司無合作或背書關係；公司名稱與 Logo 為各自商標，僅用於辨識；股價與財務數字為特定日期的快照，不構成投資建議；內容以 2026-10 公開資訊整理，可能有誤或過時。',
-    en: 'A personal, fan-made learning project — not affiliated with, endorsed by, or an official site of NVIDIA or any listed company. Company names and logos are trademarks of their owners, used for identification only. Stock and financial figures are dated snapshots, not investment advice. Compiled from public information as of 2026-10; may be inaccurate or outdated.',
+    zh: '本站為個人學習用途，非 NVIDIA 或任何公司官方網站，與各公司無合作或背書關係；公司名稱與 Logo 為各自商標，僅用於辨識；股價與財務數字為特定日期的快照，不構成投資建議；內容以 2026-10 公開資訊整理，可能有誤或過時；「圍觀次數」由免費計數服務 Abacus 統計，不使用 cookie。',
+    en: 'A personal, fan-made learning project — not affiliated with, endorsed by, or an official site of NVIDIA or any listed company. Company names and logos are trademarks of their owners, used for identification only. Stock and financial figures are dated snapshots, not investment advice. Compiled from public information as of 2026-10; may be inaccurate or outdated. The “watched” count is kept by the free Abacus counter — no cookies.',
   },
   colon: { zh: '：', en: ': ' },
   listSep: { zh: '、', en: ', ' },
@@ -20,6 +20,7 @@ const STRINGS = {
   introNext: { zh: '下一格 ›', en: 'Next ›' },
   introEnter: { zh: '踏入江湖 ›', en: 'Enter the Jianghu ›' },
   introReplay: { zh: '重看開場漫畫', en: 'Replay the intro comic' },
+  watched: { zh: '👀 已被圍觀 {n} 次', en: '👀 Watched {n} times' },
   mapTitle: { zh: 'AI 生態系大地圖', en: 'The AI Ecosystem Map' },
   keynoteKicker: { zh: '延伸自 NVIDIA GTC Berlin 主題演講投影片 · 2026.10.21', en: 'Extended from the NVIDIA GTC Berlin keynote slides · Oct 21, 2026' },
   watchKeynote: { zh: '▶ 觀看完整主題演講（中英雙語字幕）', en: '▶ Watch the full keynote (Chinese/English subtitles)' },

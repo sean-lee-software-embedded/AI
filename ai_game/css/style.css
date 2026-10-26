@@ -427,3 +427,4 @@ article .duck-kicker { color: #3E6A00; margin: 0; }
 .duck-video-meta { font-size: .78rem; font-weight: 700; letter-spacing: .04em; color: #3E6A00; }
 .duck .learn { margin: 10px 0; }
 .duck-clip { display: block; width: 100%; aspect-ratio: 16 / 9; margin-bottom: 10px; border-radius: 8px; background: var(--ink); object-fit: contain; }
+.duck-watched { display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px; background: #FFF3B0; color: var(--ink); font-weight: 700; letter-spacing: 0; }
