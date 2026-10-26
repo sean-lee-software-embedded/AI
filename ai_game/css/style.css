@@ -428,3 +428,8 @@ article .duck-kicker { color: #3E6A00; margin: 0; }
 .duck .learn { margin: 10px 0; }
 .duck-clip { display: block; width: 100%; aspect-ratio: 16 / 9; margin-bottom: 10px; border-radius: 8px; background: var(--ink); object-fit: contain; }
 .duck-watched { display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px; background: #FFF3B0; color: var(--ink); font-weight: 700; letter-spacing: 0; }
+.star-line { margin-bottom: 8px !important; }
+.star-link { font-weight: 700; font-size: .9rem; }
+.star-box { margin: 20px 0 12px; padding: 16px; text-align: center; border: 2px dashed #C09020; border-radius: var(--radius); background: #FFF6DA; }
+.star-box p { margin: 8px 0 0; }
+.star-btn { background: #F2B705; color: var(--ink); }

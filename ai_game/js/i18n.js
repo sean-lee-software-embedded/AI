@@ -21,6 +21,8 @@ const STRINGS = {
   introEnter: { zh: '踏入江湖 ›', en: 'Enter the Jianghu ›' },
   introReplay: { zh: '重看開場漫畫', en: 'Replay the intro comic' },
   watched: { zh: '👀 已被圍觀 {n} 次', en: '👀 Watched {n} times' },
+  starCta: { zh: '⭐ 喜歡的話，到 GitHub 給顆星', en: '⭐ Enjoyed it? Give it a star on GitHub' },
+  starNote: { zh: '按讚不用錢，卻能讓更多人看到這個網站。', en: "It's free, and it helps more people find this site." },
   mapTitle: { zh: 'AI 生態系大地圖', en: 'The AI Ecosystem Map' },
   keynoteKicker: { zh: '延伸自 NVIDIA GTC Berlin 主題演講投影片 · 2026.10.21', en: 'Extended from the NVIDIA GTC Berlin keynote slides · Oct 21, 2026' },
   watchKeynote: { zh: '▶ 觀看完整主題演講（中英雙語字幕）', en: '▶ Watch the full keynote (Chinese/English subtitles)' },
@@ -133,6 +135,9 @@ export function t(key, vars = {}) {
   const s = entry ? entry[lang] : key;
   return s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '');
 }
+
+/** The public GitHub repo, for the star button. */
+export const REPO_URL = 'https://github.com/sean-lee-software-embedded/AI';
 
 /** Pick the current language from a {zh, en} object, falling back to the other. */
 export function L(obj) {

@@ -1,5 +1,5 @@
 import { db, asset, present } from './data.js';
-import { t, L, altBoth, RANKS, getLang } from './i18n.js';
+import { t, L, altBoth, RANKS, getLang, REPO_URL } from './i18n.js';
 import { store } from './store.js';
 import { duckWatches } from './stats.js';
 import { h, ext, factionColor, factionTag, heroTile, importanceLabel, bondLabel, logoSrcs } from './ui.js';
@@ -200,6 +200,9 @@ export function duckView(root) {
       h('ol', { class: 'sources small' }, f.sources.map((s) => h('li', {}, ext(s.url, s.title)))))))),
     h('h2', {}, t('sources')),
     h('ol', { class: 'sources small' }, d.sources.map((s) => h('li', {}, ext(s.url, s.title)))),
+    h('div', { class: 'star-box' },
+      h('a', { class: 'btn star-btn', href: REPO_URL, target: '_blank', rel: 'noopener noreferrer' }, t('starCta'), h('span', { class: 'sr-only' }, ' (new tab)')),
+      h('p', { class: 'small muted' }, t('starNote'))),
     h('p', { class: 'small muted' }, L(d.note)),
     h('p', { class: 'center' }, h('a', { href: '#/map', class: 'btn' }, t('back')))));
 }
