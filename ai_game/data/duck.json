@@ -20,7 +20,7 @@
     "en": "At the GTC Berlin keynote on Oct 21, 2026, the Grandmaster (NVIDIA CEO Jensen Huang) brought four Microduck robots, each about 25 cm tall, on stage and called out commands to them. What happened next…"
   },
   "image": "assets/duck/banner.webp",
-  "imagePrompt": "Scene: the cheerful grandmaster blacksmith with short silver-white hair and a black leather jacket over wuxia robes crouches on a keynote stage, grinning and pointing at four tiny round white robot ducks; three ducks have flopped over on their backs with feet in the air, the fourth stands looking confused. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic, delighted.",
+  "imagePrompt": "Comedic manga thumbnail, extreme close-up energy, readable at very small size. Scene: the grandmaster blacksmith (same original chibi character as before: short silver-white hair, black leather jacket over wuxia robes, red sash; original face that does not resemble any real person) in the foreground with a gigantic jaw-drop shocked face, eyes popping out comically, huge sweat drops flying, both hands on his cheeks; behind him three tiny round white robot ducks (same design as before: glossy white egg-shaped bodies, orange beaks and feet, green glowing dot on the belly) have collapsed flat on their backs with stiff little feet straight up in the air like a slapstick gag, while the fourth duck stands perfectly upright, totally calm, blinking innocently. Dramatic radial speed lines and a green spotlight burst behind them. Accent color: NVIDIA green #76B900. Mood: over-the-top comedic shock.",
   "panels": [
     {
       "image": "assets/duck/1.webp",
@@ -30,7 +30,7 @@
         "en": "“Come over here. Show people you can walk.” Four ducks waddle forward."
       },
       "quote": "Come over here. Show people you can walk.",
-      "imagePrompt": "Scene: four tiny round white robot ducks waddle in a line across a keynote stage toward the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes), who beckons them with an open hand. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: playful.",
+      "imagePrompt": "Scene: wuxia martial-arts drill parody on a keynote stage. Four tiny round white robot ducks (same design as before: glossy white egg-shaped bodies, orange beaks and feet, green glowing dot on the belly) march in a perfectly straight line with chests puffed out and beaks held high like elite kung-fu disciples, little wings tucked behind their backs, stepping in exaggerated high-knee unison with motion lines; the grandmaster blacksmith (same original chibi character as before: short silver-white hair, black leather jacket over wuxia robes, red sash; original face that does not resemble any real person) stands like a proud sect master with arms crossed, chin up, eyes closed in smug pride, tiny sparkles around his head. The last duck in line is a split-second behind, one foot mid-air, wobbling. Low dramatic camera angle, green stage spotlights, dust puffs under the feet. Accent color: NVIDIA green #76B900. Mood: pompous, comedic.",
       "id": "duck-1"
     },
     {
@@ -41,7 +41,7 @@
         "en": "“Take a nap. You need to take a nap.” Three drop on the spot — lying down IS the nap, not a crash! The fourth wanders a few more steps before joining them."
       },
       "quote": "Take a nap. You need to take a nap.",
-      "imagePrompt": "Scene: three tiny round white robot ducks lie flat on their backs on a keynote stage with little 'zzz' sleep bubbles drawn as simple curls (no letters), while a fourth duck stands upright looking puzzled; the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) laughs with hands on knees. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic.",
+      "imagePrompt": "Scene: the instant after the command to nap. Three tiny round white robot ducks (same design as before: glossy white egg-shaped bodies, orange beaks and feet, green glowing dot on the belly) drop flat onto their backs all at once in a theatrical faint, feet sticking straight up, giant comic snot bubbles growing from their beaks, little drool, ultra-peaceful sleeping faces; the fourth duck is still marching away obliviously in the opposite direction, completely unaware. the grandmaster blacksmith (same original chibi character as before: short silver-white hair, black leather jacket over wuxia robes, red sash; original face that does not resemble any real person) is frozen in a full-body double-take: jaw on the floor, eyes bulging, hair standing on end, one arm still pointing, a giant sweat drop on his forehead. Manga impact lines and a dramatic zoom burst. Green stage lights. Accent color: NVIDIA green #76B900. Mood: slapstick, absurd.",
       "id": "duck-2"
     },
     {
@@ -52,7 +52,7 @@
         "en": "“You guys are so cute.” Then: “Your parents are called Pollen, is that right?” — Pollen Robotics, the company that developed them."
       },
       "quote": "You guys are so cute.",
-      "imagePrompt": "Scene: the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) kneels and smiles warmly at four tiny round white robot ducks gathered around him, small hearts floating above. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: heartwarming.",
+      "imagePrompt": "Scene: shoujo-manga cuteness overload. the grandmaster blacksmith (same original chibi character as before: short silver-white hair, black leather jacket over wuxia robes, red sash; original face that does not resemble any real person) kneels and melts with adoration: giant sparkling heart-shaped eyes, blushing cheeks, hands clasped, body visibly turning wobbly like jelly, a fountain of pink and green hearts exploding out of him. Four tiny round white robot ducks (same design as before: glossy white egg-shaped bodies, orange beaks and feet, green glowing dot on the belly) strike adorable idol poses in front of him — head tilts, wing waves, one winking — surrounded by sparkles, bubbles and floating flowers, with a dreamy pastel bloom background over the keynote stage. Accent color: NVIDIA green #76B900. Mood: overwhelmingly cute, comedic.",
       "id": "duck-3"
     },
     {
@@ -63,7 +63,7 @@
         "en": "“Can you do a somersault?” Two flip over! “That's so good. That's so good.”"
       },
       "quote": "Can you do a somersault?",
-      "imagePrompt": "Scene: two tiny round white robot ducks mid-somersault in the air with motion lines while two others watch, the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) watching wide-eyed and applauding. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: amazed.",
+      "imagePrompt": "Scene: epic wuxia 'light-footed kung fu' action shot. Two tiny round white robot ducks (same design as before: glossy white egg-shaped bodies, orange beaks and feet, green glowing dot on the belly) launch into spectacular mid-air somersaults like legendary martial artists, spinning with swirling green energy trails, dramatic speed lines and a full-moon-style spotlight behind them, one doing a triple flip; the other two ducks below stare up with jaws dropped, sitting on their tails. the grandmaster blacksmith (same original chibi character as before: short silver-white hair, black leather jacket over wuxia robes, red sash; original face that does not resemble any real person) leaps to his feet in a standing ovation, mouth wide open cheering, tears of joy streaming, confetti and green sparks raining down. Dynamic low-angle camera, high-energy composition. Accent color: NVIDIA green #76B900. Mood: triumphant, hilarious, over-the-top.",
       "id": "duck-4"
     }
   ],
