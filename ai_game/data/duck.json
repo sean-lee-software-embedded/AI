@@ -16,8 +16,8 @@
     "en": "See the Easter egg →"
   },
   "lead": {
-    "zh": "2026 年 10 月 21 日 GTC Berlin 主題演講，盟主（NVIDIA 執行長黃仁勳）把四隻約 25 公分高的 Microduck 小機器鴨請上台，用說的指揮牠們表演。結果……",
-    "en": "At the GTC Berlin keynote on Oct 21, 2026, the Grandmaster (NVIDIA CEO Jensen Huang) brought four Microduck robots, each about 25 cm tall, on stage and gave them voice commands. What happened next…"
+    "zh": "2026 年 10 月 21 日 GTC Berlin 主題演講，盟主（NVIDIA 執行長黃仁勳）把四隻約 25 公分高的 Microduck 小機器鴨請上台，對牠們喊話下指令。結果……",
+    "en": "At the GTC Berlin keynote on Oct 21, 2026, the Grandmaster (NVIDIA CEO Jensen Huang) brought four Microduck robots, each about 25 cm tall, on stage and called out commands to them. What happened next…"
   },
   "image": "assets/duck/banner.webp",
   "imagePrompt": "Scene: the cheerful grandmaster blacksmith with short silver-white hair and a black leather jacket over wuxia robes crouches on a keynote stage, grinning and pointing at four tiny round white robot ducks; three ducks have flopped over on their backs with feet in the air, the fourth stands looking confused. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic, delighted.",
@@ -38,7 +38,7 @@
       "emoji": "🧥😴 🦆💤🦆💤🦆💤 🦆❓",
       "caption": {
         "zh": "盟主：「去睡個午覺。」三隻立刻倒下——倒下就是「睡午覺」，不是故障！第四隻還多走了幾步，才跟著躺下。",
-        "en": "“Take a nap. You need to take a nap.” Three drop on the spot — lying down *is* the nap, not a crash! The fourth wanders a few more steps before joining them."
+        "en": "“Take a nap. You need to take a nap.” Three drop on the spot — lying down IS the nap, not a crash! The fourth wanders a few more steps before joining them."
       },
       "quote": "Take a nap. You need to take a nap.",
       "imagePrompt": "Scene: three tiny round white robot ducks lie flat on their backs on a keynote stage with little 'zzz' sleep bubbles drawn as simple curls (no letters), while a fourth duck stands upright looking puzzled; the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) laughs with hands on knees. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic.",
@@ -125,16 +125,16 @@
     }
   ],
   "note": {
-    "zh": "漫畫為原創 Q 版重現，非真人肖像；台詞節錄、翻譯自主題演講。NVIDIA、GTC、RTX Spark、Omniverse、Microduck、Hugging Face、Pollen Robotics 為各自公司的名稱或商標，本站與其無任何關係。",
-    "en": "Comic panels are an original chibi re-creation, not a likeness of any real person; quotes are excerpted from the keynote. NVIDIA, GTC, RTX Spark, Omniverse, Microduck, Hugging Face and Pollen Robotics are names or trademarks of their respective companies; this site is not affiliated with them."
+    "zh": "漫畫為本站原創 Q 版角色重現，非官方或授權圖像；台詞節錄、翻譯自主題演講。NVIDIA、GTC、RTX Spark、Omniverse、Microduck、Hugging Face、Pollen Robotics 為各自公司的名稱或商標，本站與其無任何關係，亦未獲其背書。",
+    "en": "Comic panels are this site's original chibi re-creation, not an official or authorized image; quotes are excerpted from the keynote. NVIDIA, GTC, RTX Spark, Omniverse, Microduck, Hugging Face and Pollen Robotics are names or trademarks of their respective companies; this site is not affiliated with or endorsed by them."
   },
   "lessonsTitle": {
     "zh": "Microduck 十二堂必修",
     "en": "Microduck: 12 must-knows"
   },
   "lessonsLead": {
-    "zh": "整理自 Lifey Guy 影片〈Microduck Robots: 12 Things to Know Before You Buy〉的 12 個主題，內容逐條對照 Pollen Robotics 官方資料與新聞報導。",
-    "en": "The 12 topics of Lifey Guy's video “Microduck Robots: 12 Things to Know Before You Buy”, each checked against Pollen Robotics' own pages and news reports."
+    "zh": "整理自 Lifey Guy 影片〈Microduck Robots: 12 Things to Know Before You Buy〉的 12 個主題，內容逐條對照 Pollen Robotics 官方資料、主題演講逐字稿與媒體報導。",
+    "en": "The 12 topics of Lifey Guy's video “Microduck Robots: 12 Things to Know Before You Buy”, each checked against Pollen Robotics' pages, the keynote transcript and media reports."
   },
   "lessons": [
     {
@@ -143,8 +143,8 @@
         "en": "Who makes it, and how big"
       },
       "body": {
-        "zh": "Microduck 由法國波爾多的 Pollen Robotics 研發，它是 Hugging Face 的機器人團隊；這是 Hugging Face 第二款消費型機器人，第一款是桌上型的 Reachy Mini（已出貨給超過 1 萬人）。高 25 公分、寬 14 公分、不到 800 公克，放得上書桌。Hugging Face 本身則正被 NVIDIA 收購：2026 年 9 月 3 日宣布，約 129 億美元，交易尚未完成。NVIDIA 表示 Hugging Face 會繼續是開放平台。",
-        "en": "Microduck is developed by Pollen Robotics, Hugging Face's robotics team in Bordeaux, France. It is Hugging Face's second consumer robot after the desktop Reachy Mini (shipped to more than 10,000 people). It stands 25 cm tall, 14 cm wide and weighs under 800 g — desk-sized. Hugging Face itself is being acquired by NVIDIA: announced Sept 3, 2026 for about US$12.9B; the deal hasn't closed yet. NVIDIA says Hugging Face will remain an open platform."
+        "zh": "Microduck 由法國波爾多的 Pollen Robotics 研發，它是 Hugging Face 的機器人團隊；這是 Pollen 第二款消費型機器人，第一款是桌上型的 Reachy Mini（已出貨給超過 1 萬人）。高 25 公分、寬 14 公分、不到 800 公克，放得上書桌。Hugging Face 本身則正被 NVIDIA 收購：NVIDIA 於 2026 年 9 月 3 日宣布同意以約 129 億美元收購；據報導預計 2027 年上半年、待監管核准後完成，截至本文撰寫時尚未宣布完成。NVIDIA 表示 Hugging Face 會繼續是開放平台。",
+        "en": "Microduck is developed by Pollen Robotics, Hugging Face's robotics team in Bordeaux, France. It is Pollen's second consumer robot after the desktop Reachy Mini (shipped to more than 10,000 people). It stands 25 cm tall, 14 cm wide and weighs under 800 g — desk-sized. Hugging Face itself is being acquired by NVIDIA: NVIDIA announced on Sept 3, 2026 that it agreed to buy it for about US$12.9B; reports say closing is expected in the first half of 2027, pending regulatory approval, and no completion had been announced at the time of writing. NVIDIA says Hugging Face will remain an open platform."
       },
       "sources": [
         {
@@ -158,6 +158,10 @@
         {
           "title": "NVIDIA to Acquire Hugging Face — NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+        },
+        {
+          "title": "Nvidia confirms purchase of Hugging Face for nearly $13 billion — Adweek",
+          "url": "https://www.adweek.com/dealroom/nvidia-confirms-purchase-of-hugging-face-for-nearly-13-billion/"
         }
       ]
     },
@@ -167,7 +171,7 @@
         "en": "Price and what's in the box"
       },
       "body": {
-        "zh": "早鳥價 399 美元（未含稅與運費）；heise 報導歐洲含稅含運約 440 歐元。盒內有機器人、一顆電池、USB-C 線和一支遊戲手把——不寫程式也能直接玩。另售充電包（39 美元，雙充電器加兩顆電池）、開發包（119 美元，含備用馬達等）和配件包（39 美元，含雷射筆、滾輪、球）。",
+        "zh": "推出優惠價 399 美元（未含稅與運費）；heise 報導歐洲含稅含運約 440 歐元。盒內有機器人、一顆電池、USB-C 線和一支遊戲手把——不寫程式也能直接玩。另售充電包（39 美元，雙充電器加兩顆電池）、開發包（119 美元，含備用馬達等）和配件包（39 美元，含雷射筆、滾輪、球）。",
         "en": "US$399 introductory price before tax and shipping; heise reports about €440 in Europe including tax and shipping. The box holds the robot, one battery, a USB-C cable and a game controller — playable without writing code. Extras: a charger pack (US$39, dual charger + two batteries), a dev pack (US$119, spare motors and more) and an accessory pack (US$39, laser pointer, rollers, a ball)."
       },
       "sources": [
@@ -187,8 +191,8 @@
         "en": "Seven moves out of the box"
       },
       "body": {
-        "zh": "出廠內建 7 個訓練好的動作，官方提到的包括搖擺走路、坐下、蹲下、溜直排輪、用嘴撿東西，以及從各種常見姿勢跌倒後自己爬起來。還能用手把遙控走路、追著雷射光點跑。",
-        "en": "It ships with seven trained moves; Pollen mentions a waddling walk, sitting, crouching, roller-skating, picking things up with its beak, and getting back up from many common falls. You can also drive it with the gamepad or have it chase a laser dot."
+        "zh": "出廠內建 7 個訓練好的動作，官方提到的包括搖擺走路、坐下、蹲下、溜直排輪、用嘴撿東西，以及從各種常見姿勢跌倒後自己爬起來。還能用手把遙控走路、追著雷射光點跑（雷射筆在另售的配件包裡）。",
+        "en": "It ships with seven trained moves; Pollen mentions a waddling walk, sitting, crouching, roller-skating, picking things up with its beak, and getting back up from many common falls. You can also drive it with the gamepad or have it chase a laser dot (the laser pointer comes in the accessory pack)."
       },
       "sources": [
         {
@@ -207,8 +211,8 @@
         "en": "Built to fall"
       },
       "body": {
-        "zh": "Microduck 小又輕，動作失敗通常只是倒在地上、不會摔壞；而且它會自己爬起來，不用每次都由人扶。對學機器人的人來說，這代表可以大膽試、失敗了再來——這正是它的設計重點。",
-        "en": "Small and light, a failed move usually just ends with it on the floor, not broken — and it gets itself back up, so nobody has to pick it up after every try. For people learning robotics, that means you can experiment freely and fail cheaply, which is the point of the design."
+        "zh": "Microduck 小又輕，動作失敗通常只是倒在地上、不會摔壞；而且大多數常見的跌倒姿勢它都能自己爬起來，不用每次都由人扶。對學機器人的人來說，這代表可以大膽試、失敗了再來——這正是它的設計重點。",
+        "en": "Small and light, a failed move usually just ends with it on the floor, not broken — and it can get back up from most common falls, so nobody has to pick it up after every try. For people learning robotics, that means you can experiment freely and fail cheaply, which is the point of the design."
       },
       "sources": [
         {
@@ -223,10 +227,14 @@
         "en": "What really happened onstage"
       },
       "body": {
-        "zh": "四隻 Microduck 照著盟主的指令走路、坐下、站起、「睡午覺」（倒下）。報導也記下了不完美的地方：有一隻多走了幾步才跟著躺下；叫牠們翻跟斗時，看起來只有兩隻翻成功；還有一隻落後、絆倒又爬起來，盟主喊「Pay attention! Stay focused.」Business Insider 形容這段「可愛，但沒那麼聽話」。另外，網路上有人宣稱機器鴨其實是由台下工作人員操控，目前沒有媒體證實，NVIDIA 與 Pollen 也未回應——本站視為未證實。",
-        "en": "Four Microducks walked, sat, stood and “napped” (lay down) on the Grandmaster's commands. Reports also note the hiccups: one kept walking before lying down with the others; asked to somersault, only two appeared to manage it; and one lagged, tripped and got back up as he called, “Pay attention! Stay focused.” Business Insider called it charming but not entirely obedient. Posts online claimed the ducks were steered by people under the stage; no outlet has confirmed this and NVIDIA and Pollen haven't commented, so we treat it as unverified."
+        "zh": "四隻 Microduck 照著盟主的指令走路、坐下、站起、「睡午覺」（倒下）。報導也記下了不完美的地方：有一隻多走了幾步才跟著躺下；叫牠們翻跟斗時，看起來只有兩隻翻成功；還有一隻落後、絆倒又爬起來，盟主喊「Pay attention! Stay focused.」Business Insider 形容這段「可愛，但沒那麼聽話」。另外，10 月 21–22 日 X 上有貼文宣稱四隻機器鴨是由四名人員手動操控（其中一則據稱出自在舞台下工作的人）；截至 10 月 22 日，explainx 未找到任何媒體證實，也未找到 NVIDIA 的回應——本站視為未證實。",
+        "en": "Four Microducks walked, sat, stood and “napped” (lay down) on the Grandmaster's commands. Reports also note the hiccups: one kept walking before lying down with the others; asked to somersault, only two appeared to manage it; and one lagged, tripped and got back up as he called, “Pay attention! Stay focused.” Business Insider called it charming but not entirely obedient. Posts on X on Oct 21–22 claimed four people manually operated the ducks (one reportedly from someone who worked below the stage); as of Oct 22, explainx found no outlet confirming it and no NVIDIA statement, so we treat it as unverified."
       },
       "sources": [
+        {
+          "title": "A protester and a robot duck hiccup: 2 moments from Jensen Huang's keynote didn't go to plan — Business Insider (syndicated)",
+          "url": "https://dnyuz.com/?p=307534"
+        },
         {
           "title": "GTC Berlin Microduck demo: the human-piloted claim, claimed vs. verified — explainx",
           "url": "https://www.explainx.ai/blog/nvidia-gtc-berlin-microduck-demo-human-piloted-claim-four-operators-claimed-vs-verified-2026"
@@ -247,8 +255,8 @@
         "en": "How it learned to walk"
       },
       "body": {
-        "zh": "先在模擬器（MuJoCo）裡用強化學習練，練好再移到真機器人上觀察、修正，這叫「從模擬到真實」（sim-to-real）。學到的控制方法在機器人身上每秒跑 50 次。主題演講的示範則是：RTX Spark 上的 AI 代理規劃課程，數千隻虛擬小鴨在雲端同時練習。官方還在 Hugging Face 上放了免費的瀏覽器版模擬器，人人都能試。",
-        "en": "Behaviours are trained with reinforcement learning in a simulator (MuJoCo), then moved to the real robot, watched and refined — “sim-to-real.” The learned policy runs on board 50 times a second. The keynote demo showed an agent on RTX Spark planning the course while thousands of virtual ducks trained in the cloud. There's also a free in-browser simulator on Hugging Face."
+        "zh": "先在模擬器（MuJoCo）裡用強化學習練，練好再移到真機器人上觀察、修正，這叫「從模擬到真實」（sim-to-real）。學到的控制方法在機器人身上每秒跑 50 次。主題演講的示範影片則展示 NVIDIA 自家的訓練流程：RTX Spark 上的 AI 代理規劃課程，數千隻虛擬小鴨在雲端同時練習——兩者是不同的工具鏈。官方還在 Hugging Face 上放了免費的瀏覽器版模擬器，人人都能試。",
+        "en": "Behaviours are trained with reinforcement learning in a simulator (MuJoCo), then moved to the real robot, watched and refined — “sim-to-real.” The learned policy runs on board 50 times a second. The keynote demo video showed NVIDIA's own pipeline — an agent on RTX Spark planning the course while thousands of virtual ducks trained in the cloud — a different toolchain from Pollen's. There's also a free in-browser simulator on Hugging Face."
       },
       "sources": [
         {
@@ -264,8 +272,12 @@
           "url": "https://singjupost.com/transcript-of-nvidia-gtc-berlin-2026-jensen-huang-full-keynote/"
         },
         {
-          "title": "Microduck Simulator — Hugging Face Spaces",
+          "title": "Microduck Sandbox — a Hugging Face Space by pollen-robotics",
           "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator"
+        },
+        {
+          "title": "pollen-robotics/microduck_rl — GitHub",
+          "url": "https://github.com/pollen-robotics/microduck_rl"
         }
       ],
       "terms": [
@@ -301,8 +313,8 @@
         "en": "What's inside"
       },
       "body": {
-        "zh": "瑞芯微（Rockchip）RK3566 處理器（含 AI 加速器）、1 GB 記憶體、32 GB 儲存空間、15 個馬達；感測器有前鏡頭（附像錄影燈的使用提示燈）、小型光達（8×8 的飛時測距陣列）、兩個 IMU、麥克風和喇叭、兩組 NFC 天線，以及 Wi-Fi 和藍牙。它能在機身上自己畫房間地圖：官方測試中被抱著移動 1.46 公尺後，仍能把自己定位在 2 公分誤差內。",
-        "en": "A Rockchip RK3566 processor with an AI accelerator, 1 GB RAM, 32 GB storage and 15 motors; a front camera with a REC-style indicator light, a compact LiDAR (an 8×8 time-of-flight grid), two IMUs, mics and a speaker, two NFC antennas, Wi-Fi and Bluetooth. It maps rooms on board: in Pollen's test it re-located itself within 2 cm after being carried 1.46 m."
+        "zh": "瑞芯微（Rockchip）RK3566 處理器（含 AI 加速器）、1 GB 記憶體、32 GB 儲存空間、15 個馬達；感測器有前鏡頭（附像錄影燈的使用提示燈）、小型光達（8×8 的飛時測距陣列）、兩個 IMU、麥克風和喇叭、兩組 NFC 天線，以及 Wi-Fi 和藍牙。Pollen 的工程部落格展示了機上即時建圖：在一次測試中，它被抱著移動 1.46 公尺後重新定位，誤差約 2 公分（整體中位誤差約 3–5 公分）；目前只能記住一個房間。",
+        "en": "A Rockchip RK3566 processor with an AI accelerator, 1 GB RAM, 32 GB storage and 15 motors; a front camera with a REC-style indicator light, a compact LiDAR (an 8×8 time-of-flight grid), two IMUs, mics and a speaker, two NFC antennas, Wi-Fi and Bluetooth. Pollen's engineering blog shows on-board mapping: in one test it re-located itself 2 cm off after a 1.46 m carry (median error about 3–5 cm overall); for now it maps a single room."
       },
       "sources": [
         {
@@ -374,6 +386,10 @@
           "url": "https://github.com/pollen-robotics/microduck"
         },
         {
+          "title": "pollen-robotics/microduck_rl — GitHub",
+          "url": "https://github.com/pollen-robotics/microduck_rl"
+        },
+        {
           "title": "Open Duck Mini — GitHub",
           "url": "https://github.com/apirrone/Open_Duck_Mini"
         }
@@ -388,8 +404,8 @@
         "en": "Sales, shipping and who it's for"
       },
       "body": {
-        "zh": "8 月 27 日開放預購，24 小時內銷售額超過 260 萬美元，幾天內賣出超過 1 萬台；主題演講影片爆紅隔天，Hugging Face 執行長 Clem Delangue 表示預購突破 2 萬台。第一批預計 2026 年聖誕節前出貨（北美、歐洲、英國），但官方商店已提醒：現在下訂要 2027 年 4 月以後才會出貨。它定位是好玩又能學習的機器人平台，適合想動手學 AI 與機器人的人；只想要會聊天的玩具的人，可能會失望。",
-        "en": "Pre-orders opened Aug 27; sales topped US$2.6M in 24 hours and 10,000 units within days, and the day after the keynote clip went viral Hugging Face CEO Clem Delangue said pre-orders had passed 20,000. First deliveries are targeted before Christmas 2026 (North America, Europe, UK), but the official store now says new pre-orders ship after April 2027. It's a playful learning platform for people who want to get hands-on with AI and robotics — not a chatty toy."
+        "zh": "8 月 27 日開放預購，據 Business Insider 報導，開賣 24 小時內預購金額超過 260 萬美元，幾天內賣出超過 1 萬台；主題演講影片爆紅隔天，據 TechCrunch 報導，Hugging Face 執行長 Clem Delangue 表示預購突破 2 萬台（皆為公司自報數字，未經查核）。第一批預計 2026 年聖誕節前出貨（北美、歐洲、英國），但官方商店已提醒：現在下訂要 2027 年 4 月以後才會出貨。它定位是好玩又能學習的機器人平台，適合想動手學 AI 與機器人的人；只想要會聊天的玩具的人，可能會失望。",
+        "en": "Pre-orders opened Aug 27; Business Insider reported more than US$2.6M in pre-orders in the first 24 hours, and 10,000 units within days, and the day after the keynote clip went viral TechCrunch reports Hugging Face CEO Clem Delangue said pre-orders had passed 20,000 (company figures, unaudited). First deliveries are targeted before Christmas 2026 (North America, Europe, UK), but the official store now says new pre-orders ship after April 2027. It's a playful learning platform for people who want to get hands-on with AI and robotics — those wanting a chatty toy may be disappointed."
       },
       "sources": [
         {
