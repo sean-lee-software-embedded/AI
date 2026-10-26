@@ -11,7 +11,8 @@ export const db = {};
 
 export async function loadData() {
   const results = await Promise.all(
-    FILES.map((f) => fetch(asset(`data/${f}.json`)).then((r) => {
+    // no-cache: revalidate with the server each visit, so content updates show up right away.
+    FILES.map((f) => fetch(asset(`data/${f}.json`), { cache: 'no-cache' }).then((r) => {
       if (!r.ok) throw new Error(`${f}.json: HTTP ${r.status}`);
       return r.json();
     })),
