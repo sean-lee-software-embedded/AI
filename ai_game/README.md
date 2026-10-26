@@ -4,8 +4,8 @@
 
 Meet the AI ecosystem from NVIDIA's GTC keynote through wuxia comics — about 90 companies and industries, each card with plain-language AI insights and sources.
 
-- 繁體中文：https://sean-lee-software-embedded.github.io/AI/
-- English: https://sean-lee-software-embedded.github.io/AI/en/
+- 繁體中文：https://sean-lee-software-embedded.github.io/AI/ai_game/
+- English: https://sean-lee-software-embedded.github.io/AI/ai_game/en/
 
 ## 聲明 / Disclaimer
 
