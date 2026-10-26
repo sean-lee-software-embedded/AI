@@ -58,7 +58,7 @@ export const importanceLabel = (n) => t(`imp${n}`);
 const bondKey = { customer: 'bondCustomer', partner: 'bondPartner', investee: 'bondInvestee', supplier: 'bondSupplier' };
 export const bondLabel = (type) => t(bondKey[type]);
 
-const ext = (href, text) => h('a', { href, target: '_blank', rel: 'noopener noreferrer' }, text, h('span', { class: 'sr-only' }, ' (new tab)'));
+export const ext = (href, text) => h('a', { href, target: '_blank', rel: 'noopener noreferrer' }, text, h('span', { class: 'sr-only' }, ' (new tab)'));
 
 function section(title, ...body) {
   return h('section', { class: 'card-sec' }, h('h3', {}, title), ...body);

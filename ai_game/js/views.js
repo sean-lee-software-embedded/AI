@@ -1,7 +1,7 @@
 import { db, asset, present } from './data.js';
-import { t, L, altBoth, RANKS } from './i18n.js';
+import { t, L, altBoth, RANKS, getLang } from './i18n.js';
 import { store } from './store.js';
-import { h, factionColor, factionTag, heroTile, importanceLabel, bondLabel, logoSrcs } from './ui.js';
+import { h, ext, factionColor, factionTag, heroTile, importanceLabel, bondLabel, logoSrcs } from './ui.js';
 
 const go = (hash) => { location.hash = hash; };
 const openHero = (id) => go(`#/c/${id}`);
@@ -118,12 +118,63 @@ export function mapView(root) {
   }));
 
   root.replaceChildren(h('section', {},
+    duckBanner(),
     h('p', { class: 'kicker' }, t('keynoteKicker')),
     h('h1', {}, t('mapTitle')),
     h('p', { class: 'lead' }, t('mapLead')),
     db.factions.keynote?.video ? h('p', {}, h('a', { href: db.factions.keynote.video.url, target: '_blank', rel: 'noopener noreferrer', title: db.factions.keynote.video.title }, t('watchKeynote'))) : null,
     map, list,
     h('p', { class: 'center' }, h('a', { href: '#/intro', class: 'btn-text' }, t('introReplay')))));
+}
+
+/* ---------- 2b. Easter egg: the Grandmaster and the robot ducks ---------- */
+
+/** Picture for a duck scene, or the emoji stand-in until the art exists. */
+function duckArt(src, emoji, cls) {
+  const stand = () => h('span', { class: `${cls} duck-emoji`, 'aria-hidden': 'true' }, emoji);
+  if (!present(src)) return stand();
+  return h('img', { class: cls, src: asset(src), alt: '', decoding: 'async', onerror: (e) => e.target.replaceWith(stand()) });
+}
+
+function duckBanner() {
+  const d = db.duck;
+  return h('a', { class: 'duck-hero', href: '#/duck' },
+    duckArt(d.image, '🧥\n🦆🦆\n🦆🦆', 'duck-hero-art'),
+    h('span', { class: 'duck-hero-text' },
+      h('span', { class: 'duck-kicker' }, L(d.kicker)),
+      h('strong', { class: 'duck-hero-title' }, L(d.title)),
+      h('span', { class: 'duck-hero-teaser' }, L(d.teaser)),
+      h('span', { class: 'duck-cta', 'aria-hidden': 'true' }, L(d.cta))));
+}
+
+export function duckView(root) {
+  const d = db.duck;
+  const termLinks = (ids) => ids.map((id) => db.glossary.find((g) => g.id === id)).filter(Boolean)
+    .map((g) => h('a', { class: 'tag tag-plain', href: `#/dict/${g.id}` }, L(g.real)));
+  root.replaceChildren(h('article', { class: 'duck' },
+    h('p', {}, h('a', { href: '#/map', class: 'btn-text' }, t('back'))),
+    h('p', { class: 'duck-kicker' }, L(d.kicker)),
+    h('h1', {}, L(d.title)),
+    h('p', { class: 'lead' }, L(d.lead)),
+    h('ol', { class: 'duck-panels' }, d.panels.map((p, i) => h('li', { class: 'duck-panel' },
+      duckArt(p.image, p.emoji, 'duck-panel-art'),
+      h('span', { class: 'duck-num', 'aria-hidden': 'true' }, i + 1),
+      h('p', { class: 'duck-caption' }, L(p.caption)),
+      getLang() === 'zh' ? h('p', { class: 'duck-quote', lang: 'en' }, `“${p.quote}”`) : null))),
+    h('div', { class: 'duck-videos' }, d.videos.filter((v) => !v.lang || v.lang === getLang()).map((v) => h('a', {
+      class: 'btn', href: v.url, target: '_blank', rel: 'noopener noreferrer',
+    }, L(v.label), h('span', { class: 'sr-only' }, ' (new tab)')))),
+    h('h2', {}, L(d.lessonsTitle)),
+    h('p', { class: 'muted small' }, L(d.lessonsLead)),
+    h('ol', { class: 'duck-lessons' }, d.lessons.map((f) => h('li', {}, h('details', { class: 'learn' },
+      h('summary', {}, L(f.title)),
+      h('p', {}, L(f.body)),
+      f.terms?.length ? h('p', { class: 'learn-terms small' }, t('learnTerms'), termLinks(f.terms)) : null,
+      h('ol', { class: 'sources small' }, f.sources.map((s) => h('li', {}, ext(s.url, s.title)))))))),
+    h('h2', {}, t('sources')),
+    h('ol', { class: 'sources small' }, d.sources.map((s) => h('li', {}, ext(s.url, s.title)))),
+    h('p', { class: 'small muted' }, L(d.note)),
+    h('p', { class: 'center' }, h('a', { href: '#/map', class: 'btn' }, t('back')))));
 }
 
 /* ---------- 3. Faction page (and the Grandmaster's page) ---------- */

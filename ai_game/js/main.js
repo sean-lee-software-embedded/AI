@@ -2,7 +2,7 @@ import { loadData, db } from './data.js';
 import { t, getLang, langUrl, applyStatic } from './i18n.js';
 import { store } from './store.js';
 import { h, openCard } from './ui.js';
-import { introView, mapView, factionView, bookView, quizView, dictView, flowView, notFoundView } from './views.js';
+import { introView, mapView, duckView, factionView, bookView, quizView, dictView, flowView, notFoundView } from './views.js';
 
 const app = document.getElementById('app');
 const tabsEl = document.getElementById('tabs');
@@ -19,7 +19,7 @@ let underlay = null;
 function renderTabs(current) {
   tabsEl.replaceChildren(...TABS.map(([href, key]) => h('a', {
     href,
-    'aria-current': current.startsWith(href) || (href === '#/map' && current.startsWith('#/f/')) ? 'page' : null,
+    'aria-current': current.startsWith(href) || (href === '#/map' && (current.startsWith('#/f/') || current.startsWith('#/duck'))) ? 'page' : null,
   }, t(key))));
 }
 
@@ -31,6 +31,7 @@ function renderPage(hash) {
   switch (name) {
     case 'intro': introView(app); break;
     case 'map': mapView(app); break;
+    case 'duck': duckView(app); break;
     case 'f': factionView(app, arg); break;
     case 'book': bookView(app); break;
     case 'quiz': quizView(app); break;

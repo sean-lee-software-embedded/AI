@@ -5,7 +5,7 @@ export const ROOT = new URL('../', import.meta.url);
 /** Resolve a site-relative path such as "assets/map.webp" against the site root. */
 export const asset = (path) => (path ? new URL(path, ROOT).href : path);
 
-const FILES = ['entities', 'factions', 'glossary', 'quiz', 'flow', 'assets'];
+const FILES = ['entities', 'factions', 'glossary', 'quiz', 'flow', 'assets', 'duck'];
 
 export const db = {};
 

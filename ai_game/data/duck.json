@@ -1,0 +1,423 @@
+{
+  "kicker": {
+    "zh": "★ GTC Berlin 彩蛋",
+    "en": "★ GTC Berlin Easter egg"
+  },
+  "title": {
+    "zh": "盟主馴鴨記：四隻機器鴨，三隻當場倒地",
+    "en": "The Grandmaster Tames the Robot Ducks — 4 ducks, 3 hit the floor"
+  },
+  "teaser": {
+    "zh": "是摔倒，還是聽話？主題演講最萌的一段，附 Microduck 十二堂必修。",
+    "en": "Did they crash — or just obey? The keynote's cutest moment, plus 12 must-knows about Microduck."
+  },
+  "cta": {
+    "zh": "看彩蛋 →",
+    "en": "See the Easter egg →"
+  },
+  "lead": {
+    "zh": "2026 年 10 月 21 日 GTC Berlin 主題演講，盟主（NVIDIA 執行長黃仁勳）把四隻約 25 公分高的 Microduck 小機器鴨請上台，用說的指揮牠們表演。結果……",
+    "en": "At the GTC Berlin keynote on Oct 21, 2026, the Grandmaster (NVIDIA CEO Jensen Huang) brought four Microduck robots, each about 25 cm tall, on stage and gave them voice commands. What happened next…"
+  },
+  "image": "assets/duck/banner.webp",
+  "imagePrompt": "Scene: the cheerful grandmaster blacksmith with short silver-white hair and a black leather jacket over wuxia robes crouches on a keynote stage, grinning and pointing at four tiny round white robot ducks; three ducks have flopped over on their backs with feet in the air, the fourth stands looking confused. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic, delighted.",
+  "panels": [
+    {
+      "image": "assets/duck/1.webp",
+      "emoji": "🧥👉 🦆🦆🦆🦆",
+      "caption": {
+        "zh": "盟主：「過來，走給大家看。」四隻小鴨搖搖擺擺地走上前。",
+        "en": "“Come over here. Show people you can walk.” Four ducks waddle forward."
+      },
+      "quote": "Come over here. Show people you can walk.",
+      "imagePrompt": "Scene: four tiny round white robot ducks waddle in a line across a keynote stage toward the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes), who beckons them with an open hand. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: playful.",
+      "id": "duck-1"
+    },
+    {
+      "image": "assets/duck/2.webp",
+      "emoji": "🧥😴 🦆💤🦆💤🦆💤 🦆❓",
+      "caption": {
+        "zh": "盟主：「去睡個午覺。」三隻立刻倒下——倒下就是「睡午覺」，不是故障！第四隻還多走了幾步，才跟著躺下。",
+        "en": "“Take a nap. You need to take a nap.” Three drop on the spot — lying down *is* the nap, not a crash! The fourth wanders a few more steps before joining them."
+      },
+      "quote": "Take a nap. You need to take a nap.",
+      "imagePrompt": "Scene: three tiny round white robot ducks lie flat on their backs on a keynote stage with little 'zzz' sleep bubbles drawn as simple curls (no letters), while a fourth duck stands upright looking puzzled; the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) laughs with hands on knees. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: comedic.",
+      "id": "duck-2"
+    },
+    {
+      "image": "assets/duck/4.webp",
+      "emoji": "🧥🥰 🦆🦆🦆🦆",
+      "caption": {
+        "zh": "盟主：「你們好可愛。」還問小鴨：「你們的爸媽叫 Pollen，對吧？」——Pollen Robotics，就是研發牠們的公司。",
+        "en": "“You guys are so cute.” Then: “Your parents are called Pollen, is that right?” — Pollen Robotics, the company that developed them."
+      },
+      "quote": "You guys are so cute.",
+      "imagePrompt": "Scene: the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) kneels and smiles warmly at four tiny round white robot ducks gathered around him, small hearts floating above. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: heartwarming.",
+      "id": "duck-3"
+    },
+    {
+      "image": "assets/duck/3.webp",
+      "emoji": "🧥😮 🦆🔄🦆🔄",
+      "caption": {
+        "zh": "「能翻跟斗嗎？」——兩隻翻了過去！盟主連聲稱讚：「太棒了，太棒了。」",
+        "en": "“Can you do a somersault?” Two flip over! “That's so good. That's so good.”"
+      },
+      "quote": "Can you do a somersault?",
+      "imagePrompt": "Scene: two tiny round white robot ducks mid-somersault in the air with motion lines while two others watch, the grandmaster blacksmith (short silver-white hair, black leather jacket over wuxia robes) watching wide-eyed and applauding. Green stage light. Original chibi face that does not resemble any real person. Accent color: NVIDIA green #76B900. Mood: amazed.",
+      "id": "duck-4"
+    }
+  ],
+  "videos": [
+    {
+      "label": {
+        "zh": "▶ 看影片：盟主與機器鴨",
+        "en": "▶ Watch: the Grandmaster and the robot ducks"
+      },
+      "title": "Jensen Huang's Tiny Microduck Robots Steal the Show at NVIDIA GTC 2026",
+      "url": "https://www.youtube.com/watch?v=Nt6d62vN7CU"
+    },
+    {
+      "label": {
+        "zh": "▶ 看短影音（Shorts）",
+        "en": "▶ Watch the Short"
+      },
+      "title": "NVIDIA CEO Jensen Huang Shows Off Tiny AI Robots at GTC Berlin 2026",
+      "url": "https://www.youtube.com/shorts/iJdTcjjRdcg"
+    },
+    {
+      "lang": "zh",
+      "label": {
+        "zh": "▶ 中文解說短片：6 大 QA 看懂機器鴨",
+        "en": "▶ Chinese explainer Short"
+      },
+      "title": "6大QA看懂黃仁勳機器鴨 AI agent和RTX Spark教會它翻筋斗 — 知新聞",
+      "url": "https://www.youtube.com/shorts/maBYc9iRSEc"
+    },
+    {
+      "label": {
+        "zh": "▶ 看影片：買之前必知的 12 件事",
+        "en": "▶ Watch: 12 things to know before you buy"
+      },
+      "title": "Microduck Robots: 12 Things to Know Before You Buy — Lifey Guy",
+      "url": "https://www.youtube.com/watch?v=s_c4Z84jtXM"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Microduck Robots: 12 Things to Know Before You Buy — Lifey Guy (YouTube)",
+      "url": "https://www.youtube.com/watch?v=s_c4Z84jtXM"
+    },
+    {
+      "title": "Jensen Huang's Tiny Microduck Robots Steal the Show at NVIDIA GTC 2026 — DPCcars",
+      "url": "https://www.dpccars.com/blog/jensen-huangs-tiny-microduck-robots-steal-the-show-at-nvidia-gtc-2026/"
+    },
+    {
+      "title": "Transcript of NVIDIA GTC Berlin 2026: Jensen Huang Full Keynote — The Singju Post",
+      "url": "https://singjupost.com/transcript-of-nvidia-gtc-berlin-2026-jensen-huang-full-keynote/"
+    },
+    {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell — TechCrunch",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
+    },
+    {
+      "title": "GTC Berlin Microduck demo: the human-piloted claim, claimed vs. verified — explainx",
+      "url": "https://www.explainx.ai/blog/nvidia-gtc-berlin-microduck-demo-human-piloted-claim-four-operators-claimed-vs-verified-2026"
+    }
+  ],
+  "note": {
+    "zh": "漫畫為原創 Q 版重現，非真人肖像；台詞節錄、翻譯自主題演講。NVIDIA、GTC、RTX Spark、Omniverse、Microduck、Hugging Face、Pollen Robotics 為各自公司的名稱或商標，本站與其無任何關係。",
+    "en": "Comic panels are an original chibi re-creation, not a likeness of any real person; quotes are excerpted from the keynote. NVIDIA, GTC, RTX Spark, Omniverse, Microduck, Hugging Face and Pollen Robotics are names or trademarks of their respective companies; this site is not affiliated with them."
+  },
+  "lessonsTitle": {
+    "zh": "Microduck 十二堂必修",
+    "en": "Microduck: 12 must-knows"
+  },
+  "lessonsLead": {
+    "zh": "整理自 Lifey Guy 影片〈Microduck Robots: 12 Things to Know Before You Buy〉的 12 個主題，內容逐條對照 Pollen Robotics 官方資料與新聞報導。",
+    "en": "The 12 topics of Lifey Guy's video “Microduck Robots: 12 Things to Know Before You Buy”, each checked against Pollen Robotics' own pages and news reports."
+  },
+  "lessons": [
+    {
+      "title": {
+        "zh": "身世：誰做的、多大隻",
+        "en": "Who makes it, and how big"
+      },
+      "body": {
+        "zh": "Microduck 由法國波爾多的 Pollen Robotics 研發，它是 Hugging Face 的機器人團隊；這是 Hugging Face 第二款消費型機器人，第一款是桌上型的 Reachy Mini（已出貨給超過 1 萬人）。高 25 公分、寬 14 公分、不到 800 公克，放得上書桌。Hugging Face 本身則正被 NVIDIA 收購：2026 年 9 月 3 日宣布，約 129 億美元，交易尚未完成。NVIDIA 表示 Hugging Face 會繼續是開放平台。",
+        "en": "Microduck is developed by Pollen Robotics, Hugging Face's robotics team in Bordeaux, France. It is Hugging Face's second consumer robot after the desktop Reachy Mini (shipped to more than 10,000 people). It stands 25 cm tall, 14 cm wide and weighs under 800 g — desk-sized. Hugging Face itself is being acquired by NVIDIA: announced Sept 3, 2026 for about US$12.9B; the deal hasn't closed yet. NVIDIA says Hugging Face will remain an open platform."
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        },
+        {
+          "title": "NVIDIA to Acquire Hugging Face — NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "價格與盒裝內容",
+        "en": "Price and what's in the box"
+      },
+      "body": {
+        "zh": "早鳥價 399 美元（未含稅與運費）；heise 報導歐洲含稅含運約 440 歐元。盒內有機器人、一顆電池、USB-C 線和一支遊戲手把——不寫程式也能直接玩。另售充電包（39 美元，雙充電器加兩顆電池）、開發包（119 美元，含備用馬達等）和配件包（39 美元，含雷射筆、滾輪、球）。",
+        "en": "US$399 introductory price before tax and shipping; heise reports about €440 in Europe including tax and shipping. The box holds the robot, one battery, a USB-C cable and a game controller — playable without writing code. Extras: a charger pack (US$39, dual charger + two batteries), a dev pack (US$119, spare motors and more) and an accessory pack (US$39, laser pointer, rollers, a ball)."
+      },
+      "sources": [
+        {
+          "title": "Microduck — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/"
+        },
+        {
+          "title": "Microduck: The duck robot from France — heise online",
+          "url": "https://www.heise.de/en/news/Microduck-The-duck-robot-from-France-11434364.html"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "出廠就會 7 招",
+        "en": "Seven moves out of the box"
+      },
+      "body": {
+        "zh": "出廠內建 7 個訓練好的動作，官方提到的包括搖擺走路、坐下、蹲下、溜直排輪、用嘴撿東西，以及從各種常見姿勢跌倒後自己爬起來。還能用手把遙控走路、追著雷射光點跑。",
+        "en": "It ships with seven trained moves; Pollen mentions a waddling walk, sitting, crouching, roller-skating, picking things up with its beak, and getting back up from many common falls. You can also drive it with the gamepad or have it chase a laser dot."
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "生來就是要跌倒的",
+        "en": "Built to fall"
+      },
+      "body": {
+        "zh": "Microduck 小又輕，動作失敗通常只是倒在地上、不會摔壞；而且它會自己爬起來，不用每次都由人扶。對學機器人的人來說，這代表可以大膽試、失敗了再來——這正是它的設計重點。",
+        "en": "Small and light, a failed move usually just ends with it on the floor, not broken — and it gets itself back up, so nobody has to pick it up after every try. For people learning robotics, that means you can experiment freely and fail cheaply, which is the point of the design."
+      },
+      "sources": [
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "台上到底發生了什麼",
+        "en": "What really happened onstage"
+      },
+      "body": {
+        "zh": "四隻 Microduck 照著盟主的指令走路、坐下、站起、「睡午覺」（倒下）。報導也記下了不完美的地方：有一隻多走了幾步才跟著躺下；叫牠們翻跟斗時，看起來只有兩隻翻成功；還有一隻落後、絆倒又爬起來，盟主喊「Pay attention! Stay focused.」Business Insider 形容這段「可愛，但沒那麼聽話」。另外，網路上有人宣稱機器鴨其實是由台下工作人員操控，目前沒有媒體證實，NVIDIA 與 Pollen 也未回應——本站視為未證實。",
+        "en": "Four Microducks walked, sat, stood and “napped” (lay down) on the Grandmaster's commands. Reports also note the hiccups: one kept walking before lying down with the others; asked to somersault, only two appeared to manage it; and one lagged, tripped and got back up as he called, “Pay attention! Stay focused.” Business Insider called it charming but not entirely obedient. Posts online claimed the ducks were steered by people under the stage; no outlet has confirmed this and NVIDIA and Pollen haven't commented, so we treat it as unverified."
+      },
+      "sources": [
+        {
+          "title": "GTC Berlin Microduck demo: the human-piloted claim, claimed vs. verified — explainx",
+          "url": "https://www.explainx.ai/blog/nvidia-gtc-berlin-microduck-demo-human-piloted-claim-four-operators-claimed-vs-verified-2026"
+        },
+        {
+          "title": "Jensen Huang's Tiny Microduck Robots Steal the Show at NVIDIA GTC 2026 — DPCcars",
+          "url": "https://www.dpccars.com/blog/jensen-huangs-tiny-microduck-robots-steal-the-show-at-nvidia-gtc-2026/"
+        },
+        {
+          "title": "Transcript of NVIDIA GTC Berlin 2026: Jensen Huang Full Keynote — The Singju Post",
+          "url": "https://singjupost.com/transcript-of-nvidia-gtc-berlin-2026-jensen-huang-full-keynote/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "怎麼學會走路",
+        "en": "How it learned to walk"
+      },
+      "body": {
+        "zh": "先在模擬器（MuJoCo）裡用強化學習練，練好再移到真機器人上觀察、修正，這叫「從模擬到真實」（sim-to-real）。學到的控制方法在機器人身上每秒跑 50 次。主題演講的示範則是：RTX Spark 上的 AI 代理規劃課程，數千隻虛擬小鴨在雲端同時練習。官方還在 Hugging Face 上放了免費的瀏覽器版模擬器，人人都能試。",
+        "en": "Behaviours are trained with reinforcement learning in a simulator (MuJoCo), then moved to the real robot, watched and refined — “sim-to-real.” The learned policy runs on board 50 times a second. The keynote demo showed an agent on RTX Spark planning the course while thousands of virtual ducks trained in the cloud. There's also a free in-browser simulator on Hugging Face."
+      },
+      "sources": [
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        },
+        {
+          "title": "Microduck — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/"
+        },
+        {
+          "title": "Transcript of NVIDIA GTC Berlin 2026: Jensen Huang Full Keynote — The Singju Post",
+          "url": "https://singjupost.com/transcript-of-nvidia-gtc-berlin-2026-jensen-huang-full-keynote/"
+        },
+        {
+          "title": "Microduck Simulator — Hugging Face Spaces",
+          "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator"
+        }
+      ],
+      "terms": [
+        "reinforcement-learning",
+        "digital-twin",
+        "agent",
+        "training"
+      ]
+    },
+    {
+      "title": {
+        "zh": "嘴巴就是它的手",
+        "en": "Its beak is its hand"
+      },
+      "body": {
+        "zh": "鴨嘴可以開合，用來撿起、叼著東西走：身體先壓低、嘴巴夾住，再帶著走。官方沒有公布最多能叼多重，本站不列數字。",
+        "en": "The beak opens and closes to pick things up and carry them: the body lowers, the beak closes, and off it goes. Pollen hasn't published a maximum payload, so we don't give a number."
+      },
+      "sources": [
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        },
+        {
+          "title": "Microduck: The duck robot from France — heise online",
+          "url": "https://www.heise.de/en/news/Microduck-The-duck-robot-from-France-11434364.html"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "裡面裝了什麼",
+        "en": "What's inside"
+      },
+      "body": {
+        "zh": "瑞芯微（Rockchip）RK3566 處理器（含 AI 加速器）、1 GB 記憶體、32 GB 儲存空間、15 個馬達；感測器有前鏡頭（附像錄影燈的使用提示燈）、小型光達（8×8 的飛時測距陣列）、兩個 IMU、麥克風和喇叭、兩組 NFC 天線，以及 Wi-Fi 和藍牙。它能在機身上自己畫房間地圖：官方測試中被抱著移動 1.46 公尺後，仍能把自己定位在 2 公分誤差內。",
+        "en": "A Rockchip RK3566 processor with an AI accelerator, 1 GB RAM, 32 GB storage and 15 motors; a front camera with a REC-style indicator light, a compact LiDAR (an 8×8 time-of-flight grid), two IMUs, mics and a speaker, two NFC antennas, Wi-Fi and Bluetooth. It maps rooms on board: in Pollen's test it re-located itself within 2 cm after being carried 1.46 m."
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "Microduck SLAM — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/microduck-slam/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "電池撐多久",
+        "en": "Battery life"
+      },
+      "body": {
+        "zh": "用的是可拆換的 NP-F550 相機電池（2,600 mAh），約可連續玩一小時，看使用方式而定。想玩久一點，可以加購有兩顆電池的充電包輪流換。",
+        "en": "It runs on a removable NP-F550 camera battery (2,600 mAh) — about an hour, depending on use. For longer sessions, the charger pack's two extra batteries let you swap."
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "Microduck — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "牠只說「鴨語」",
+        "en": "It speaks duck"
+      },
+      "body": {
+        "zh": "Microduck 不會說人話，只會發出奇怪又可愛的小聲音，比較像小動物而不是語音助理。每一隻在第一次開機時會產生自己獨特的聲音，之後就一直是那個聲音。",
+        "en": "Microduck doesn't talk; it makes odd little sounds, more creature than assistant. Each unit generates its own voice the first time it powers on and keeps it for life."
+      },
+      "sources": [
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        },
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "開源，但只開一半",
+        "en": "Open source — partly"
+      },
+      "body": {
+        "zh": "軟體是開源的：SDK、模擬訓練環境、強化學習腳本和 sim-to-real 工具都以 Apache 2.0 授權放在 GitHub。但機構與電路設計檔沒有公開，Pollen 也明確要求不要把它稱為「開源硬體」。（Pollen 先前贊助過社群專案 Open Duck Mini——一款迷你版 Disney BDX 機器人，設計檔完全公開。）",
+        "en": "The software is open: the SDK, simulation environments, RL scripts and sim-to-real tools are on GitHub under Apache 2.0. The mechanical and electronic design files are not, and Pollen explicitly asks that it not be called open-source hardware. (Pollen previously sponsored the community project Open Duck Mini, a mini Disney BDX droid with fully public designs.)"
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "pollen-robotics/microduck — GitHub",
+          "url": "https://github.com/pollen-robotics/microduck"
+        },
+        {
+          "title": "Open Duck Mini — GitHub",
+          "url": "https://github.com/apirrone/Open_Duck_Mini"
+        }
+      ],
+      "terms": [
+        "open-model"
+      ]
+    },
+    {
+      "title": {
+        "zh": "賣多快、何時到貨、適合誰",
+        "en": "Sales, shipping and who it's for"
+      },
+      "body": {
+        "zh": "8 月 27 日開放預購，24 小時內銷售額超過 260 萬美元，幾天內賣出超過 1 萬台；主題演講影片爆紅隔天，Hugging Face 執行長 Clem Delangue 表示預購突破 2 萬台。第一批預計 2026 年聖誕節前出貨（北美、歐洲、英國），但官方商店已提醒：現在下訂要 2027 年 4 月以後才會出貨。它定位是好玩又能學習的機器人平台，適合想動手學 AI 與機器人的人；只想要會聊天的玩具的人，可能會失望。",
+        "en": "Pre-orders opened Aug 27; sales topped US$2.6M in 24 hours and 10,000 units within days, and the day after the keynote clip went viral Hugging Face CEO Clem Delangue said pre-orders had passed 20,000. First deliveries are targeted before Christmas 2026 (North America, Europe, UK), but the official store now says new pre-orders ship after April 2027. It's a playful learning platform for people who want to get hands-on with AI and robotics — not a chatty toy."
+      },
+      "sources": [
+        {
+          "title": "Microduck press kit & fact sheet — Pollen Robotics",
+          "url": "https://pollen-robotics.com/microduck/press-kit/"
+        },
+        {
+          "title": "Hugging Face says Microduck sales topped $2.6 million in 24 hours — Business Insider",
+          "url": "https://www.businessinsider.com/hugging-faces-duck-robot-hits-sales-roller-skate-2026-8"
+        },
+        {
+          "title": "Hugging Face's duck robot powered by a Chinese chip sold over 10,000 units — The Standard",
+          "url": "https://www.thestandard.com.hk/finance/article/341576/Hugging-Faces-duck-robot-powered-by-a-Chinese-chip-sold-over-10000-units"
+        },
+        {
+          "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell — TechCrunch",
+          "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
+        },
+        {
+          "title": "Introducing Microduck — Pollen Robotics blog",
+          "url": "https://pollen-robotics.com/microduck/blog/introducing-microduck/"
+        },
+        {
+          "title": "Microduck — Pollen Robotics store",
+          "url": "https://store.pollen-robotics.com/products/microduck"
+        }
+      ]
+    }
+  ],
+  "id": "duck-banner"
+}
