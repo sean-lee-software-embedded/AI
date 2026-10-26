@@ -1,7 +1,7 @@
 // "Watched N times" counter for the duck page, kept by Abacus (abacus.jasoncameron.dev):
 // a free, sign-up-free public counter with no cookies. Fails silently when unreachable or blocked.
 
-const COUNTER = 'https://abacus.jasoncameron.dev/%s/sean-ai-game/duck-watched';
+const COUNTER = 'https://abacus.jasoncameron.dev/%s/ai-wuxia-chronicles/duck-watched';
 const HIT_KEY = 'aiqx:duck-counted';
 
 let value;

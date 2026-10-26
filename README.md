@@ -1,6 +1,6 @@
 # AI
 
-Sean 的 AI 學習作品集 · Sean's AI learning projects
+AI 學習作品集 · AI learning projects
 
 ---
 
